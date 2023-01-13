@@ -1,0 +1,4 @@
+<archimate:Requirement
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Automated escalation of privileges (PIM) should be used to make changes to all Business Account / tenant level configurations; time bound, etc"
+    id="id-3ddb26639c2a42bb83036f5d72edbd79"/>

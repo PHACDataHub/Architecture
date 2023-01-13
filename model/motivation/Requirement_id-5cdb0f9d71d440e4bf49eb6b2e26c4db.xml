@@ -1,0 +1,4 @@
+<archimate:Requirement
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Systems must be configured to pull from Github, not require push to deploy (Flux)"
+    id="id-5cdb0f9d71d440e4bf49eb6b2e26c4db"/>
