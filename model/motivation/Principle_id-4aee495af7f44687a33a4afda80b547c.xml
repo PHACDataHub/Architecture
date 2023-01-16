@@ -1,0 +1,17 @@
+<archimate:Principle
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Governable"
+    id="id-4aee495af7f44687a33a4afda80b547c"
+    documentation="The system should enable the owners and executive managers of the organisation to control the business and to discharge their responsibilities for governance.">
+  <properties
+      key="namespace"
+      value="SABSA"/>
+  <properties
+      key="stereotype"
+      value="StrategicAttribute"/>
+  <properties
+      key="softMetric"
+      value="Senior management focus group. "/>
+  <profiles
+      href="folder.xml#id-56d3cf987aae41309e7cbe00ed6d09d3"/>
+</archimate:Principle>

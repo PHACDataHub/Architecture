@@ -1,0 +1,17 @@
+<archimate:Principle
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Media Protected"
+    id="id-c8f024d69e9f4bda8ec781f447eb9388"
+    documentation="The system should deliver the target services with optimum efficiency, avoiding wastage of resources.">
+  <properties
+      key="namespace"
+      value="SABSA"/>
+  <properties
+      key="stereotype"
+      value="OperationalAttribute"/>
+  <properties
+      key="hardMetric"
+      value="A target efficiency ratio based on (Input value)/(Output value)."/>
+  <profiles
+      href="folder.xml#id-3ebbbd97d0f14344a919a235f4a752ff"/>
+</archimate:Principle>

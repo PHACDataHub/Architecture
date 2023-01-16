@@ -1,0 +1,17 @@
+<archimate:Principle
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Consistent"
+    id="id-7fa8414198ca49c98acf501beeb0cd1c"
+    documentation="The way in which log-in, navigation and target services are presented to the user should be consistent across different times, locations and channels of access.">
+  <properties
+      key="namespace"
+      value="SABSA"/>
+  <properties
+      key="stereotype"
+      value="UserAttribute"/>
+  <properties
+      key="hardMetric"
+      value="Conformance with  design style guides"/>
+  <profiles
+      href="folder.xml#id-74e159ad24704a13ad5b4569a7fb1c1e"/>
+</archimate:Principle>

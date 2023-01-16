@@ -1,0 +1,17 @@
+<archimate:Principle
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Interoperable"
+    id="id-5a87c4029b3240f095f58ed0caa27584"
+    documentation="The system should interoperate with other similar systems, both immediately and in the future, as intersystem communication becomes increasingly a requirement.">
+  <properties
+      key="namespace"
+      value="SABSA"/>
+  <properties
+      key="stereotype"
+      value="OperationalAttribute"/>
+  <properties
+      key="hardMetric"
+      value="Specific interoperability requirements"/>
+  <profiles
+      href="folder.xml#id-3ebbbd97d0f14344a919a235f4a752ff"/>
+</archimate:Principle>

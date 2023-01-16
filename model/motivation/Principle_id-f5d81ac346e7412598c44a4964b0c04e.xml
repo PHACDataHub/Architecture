@@ -1,0 +1,20 @@
+<archimate:Principle
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Retained"
+    id="id-f5d81ac346e7412598c44a4964b0c04e"
+    documentation="Providing knowledge retention &amp; organisational memory.&#xD;&#xA;">
+  <properties
+      key="namespace"
+      value="SABSA"/>
+  <properties
+      key="stereotype"
+      value="OperationalAttribute"/>
+  <properties
+      key="hardMetric"
+      value="Acceptance Testing on key data to demonstrate compliance with design rules."/>
+  <properties
+      key="source"
+      value="TSI-MSA"/>
+  <profiles
+      href="folder.xml#id-3ebbbd97d0f14344a919a235f4a752ff"/>
+</archimate:Principle>

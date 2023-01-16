@@ -1,0 +1,20 @@
+<archimate:Principle
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Auditable"
+    id="id-332dbcc7faea4a46960aca6f1e4972f8"
+    documentation="The actions of all parties having authorized access to the system, and the complete chain of events and outcomes resulting from these actions, should be recorded so that this history can be reviewed.&#xD;&#xA;The audit records should provide an appropriate level of detail, in accordance with business needs.&#xD;&#xA;The actual configuration of the system should also be capable of being audited so as to compare it with a target configuration that represents the implementation of the security policy that governs the system.">
+  <properties
+      key="namespace"
+      value="SABSA"/>
+  <properties
+      key="stereotype"
+      value="RiskAttribute"/>
+  <properties
+      key="softMetric"
+      value="Independent audit and review against Security Architecture Capability Maturity Model."/>
+  <properties
+      key="hardMetric"
+      value="Documented target configuration exists under change control with a capability to check current configuration against this target. "/>
+  <profiles
+      href="folder.xml#id-a5e2969e35374942933c5266a712c2e1"/>
+</archimate:Principle>

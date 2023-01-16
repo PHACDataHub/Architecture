@@ -1,0 +1,17 @@
+<archimate:Principle
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Maintainable"
+    id="id-242f196457854490b0f3b531a8641229"
+    documentation="The system should capable of being maintained in a state of good repair and effective, efficient operation. &#xD;&#xA;The actions required to achieve this should feasible within the normal for continuity of service, operational conditions of the system.&#xD;&#xA;">
+  <properties
+      key="namespace"
+      value="SABSA"/>
+  <properties
+      key="stereotype"
+      value="ManagementAttribute"/>
+  <properties
+      key="softMetric"
+      value="Documented execution of a preventive maintenance schedule for both hardware and software, correlated against targets such as mean time between failures (MTBF)"/>
+  <profiles
+      href="folder.xml#id-a5e2969e35374942933c5266a712c2e1"/>
+</archimate:Principle>

@@ -1,0 +1,17 @@
+<archimate:Principle
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Educated &amp; Aware"
+    id="id-37528481431e438799fc5e24833b23e1"
+    documentation="The user community should be educated and trained so that they can embrace the security culture.&#xD;&#xA;There should be sufficient user awareness of security issues so that behavior of users is compliant with security policies">
+  <properties
+      key="namespace"
+      value="SABSA"/>
+  <properties
+      key="stereotype"
+      value="UserAttribute"/>
+  <properties
+      key="softMetric"
+      value="Competence surveys"/>
+  <profiles
+      href="folder.xml#id-74e159ad24704a13ad5b4569a7fb1c1e"/>
+</archimate:Principle>

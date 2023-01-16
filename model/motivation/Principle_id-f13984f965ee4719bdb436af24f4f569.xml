@@ -1,0 +1,17 @@
+<archimate:Principle
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Timebound"
+    id="id-f13984f965ee4719bdb436af24f4f569"
+    documentation="Meeting requirements for maximum or minimum periods of time, for example, a minimum period for records retention or a maximum period within which something must be completed.&#xD;&#xA;">
+  <properties
+      key="namespace"
+      value="SABSA"/>
+  <properties
+      key="stereotype"
+      value="LegalAttribute"/>
+  <properties
+      key="hardMetric"
+      value="Independent functional design review against specified functional requirements."/>
+  <profiles
+      href="folder.xml#id-e8ac6d461c0e4fa7a806abd4e3664a64"/>
+</archimate:Principle>

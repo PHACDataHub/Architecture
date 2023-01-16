@@ -1,0 +1,17 @@
+<archimate:Principle
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Legacy Sensitive"
+    id="id-4021a7bb947148d89f25d4b2556746f6"
+    documentation="A new system should be able to work with any legacy systems or databases with which it needs to interoperate or integrate.">
+  <properties
+      key="namespace"
+      value="SABSA"/>
+  <properties
+      key="stereotype"
+      value="TechnicalAttribute"/>
+  <properties
+      key="softMetric"
+      value="Independent audit and review against Security Architecture Capability Maturity Model of technical architecture (conceptual, logical and physical)"/>
+  <profiles
+      href="folder.xml#id-bf6e0c1f49e14f1ab7073362fad1cd42"/>
+</archimate:Principle>

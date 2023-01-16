@@ -1,0 +1,17 @@
+<archimate:Principle
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Flexibly Secure"
+    id="id-ad2fe412063342f18608b8ba18f8dd73"
+    documentation="Security can be provided at various levels, according to business need.&#xD;&#xA;The system should provide the means to secure information according to those needs and may need to offer different levels of security for different types of information (according to its classification).">
+  <properties
+      key="namespace"
+      value="SABSA"/>
+  <properties
+      key="stereotype"
+      value="RiskAttribute"/>
+  <properties
+      key="softMetric"
+      value="Independent audit &amp; review against Security Architecture CMM (sse-cmm.org)"/>
+  <profiles
+      href="folder.xml#id-a5e2969e35374942933c5266a712c2e1"/>
+</archimate:Principle>

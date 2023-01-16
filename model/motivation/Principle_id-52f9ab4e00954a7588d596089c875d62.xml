@@ -1,0 +1,17 @@
+<archimate:Principle
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Accessible"
+    id="id-52f9ab4e00954a7588d596089c875d62"
+    documentation="Information to which the user is entitled to gain access should be easily found and accessed by that user.">
+  <properties
+      key="namespace"
+      value="SABSA"/>
+  <properties
+      key="stereotype"
+      value="UserAttribute"/>
+  <properties
+      key="hardMetric"
+      value="Search tree depth necessary to find the information"/>
+  <profiles
+      href="folder.xml#id-74e159ad24704a13ad5b4569a7fb1c1e"/>
+</archimate:Principle>

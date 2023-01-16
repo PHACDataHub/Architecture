@@ -1,0 +1,7 @@
+<archimate:BusinessActor
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Hacktivist"
+    id="id-6acbfec9ec2943caae9fec7ceeaa66ab">
+  <profiles
+      href="folder.xml#id-cd51cf91fd824533b0253944ae40190d"/>
+</archimate:BusinessActor>

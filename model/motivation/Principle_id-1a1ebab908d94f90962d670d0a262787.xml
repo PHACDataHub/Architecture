@@ -1,0 +1,20 @@
+<archimate:Principle
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Comprehensive"
+    id="id-1a1ebab908d94f90962d670d0a262787"
+    documentation="Is operationally enforced at all places and points in time where policy deems  applicable.">
+  <properties
+      key="namespace"
+      value="SABSA"/>
+  <properties
+      key="stereotype"
+      value="OperationalAttribute"/>
+  <properties
+      key="source"
+      value="TSI-MSA"/>
+  <properties
+      key="hardMetric"
+      value="Proof of complete mediation"/>
+  <profiles
+      href="folder.xml#id-3ebbbd97d0f14344a919a235f4a752ff"/>
+</archimate:Principle>

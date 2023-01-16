@@ -1,0 +1,17 @@
+<archimate:Principle
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Informed"
+    id="id-8103e1df924840ee9484c02732d64ee2"
+    documentation="Each individual  should be informed about their rights, obligations, policies, means of redress etc e&#xD;&#xA;There should be an audit trail of the receipt and understanding of this information where nnecessary .g. as a basis of freely-given consent for GDPR">
+  <properties
+      key="namespace"
+      value="SABSA"/>
+  <properties
+      key="stereotype"
+      value="UserAttribute"/>
+  <properties
+      key="hardMetric"
+      value="% Users for whom affirmative / passive evidence of being informed is on record."/>
+  <profiles
+      href="folder.xml#id-74e159ad24704a13ad5b4569a7fb1c1e"/>
+</archimate:Principle>

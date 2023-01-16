@@ -1,0 +1,20 @@
+<archimate:Principle
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Legal"
+    id="id-af93f5fd32ea4029bd2678b88942afe0"
+    documentation="The system should be designed, implemented, and operated in accordance with the requirements of any applicable legislation. &#xD;&#xA;Examples include data protection laws, laws controlling the use of cryptographic technology, laws controlling insider dealing on the stock market, and laws governing information that is considered racist, seditious or pornographic.">
+  <properties
+      key="namespace"
+      value="SABSA"/>
+  <properties
+      key="stereotype"
+      value="LegalAttribute"/>
+  <properties
+      key="softMetric"
+      value="Independent audit and review against Security Architecture Capability Maturity Model."/>
+  <properties
+      key="hardMetric"
+      value="Verification of the inventory of applicable laws to check for completeness and suitability."/>
+  <profiles
+      href="folder.xml#id-e8ac6d461c0e4fa7a806abd4e3664a64"/>
+</archimate:Principle>

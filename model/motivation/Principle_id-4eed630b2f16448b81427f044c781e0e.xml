@@ -1,0 +1,17 @@
+<archimate:Principle
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Competent"
+    id="id-4eed630b2f16448b81427f044c781e0e"
+    documentation="The system should protect the reputation of the organisation as being competent in its industry sector">
+  <properties
+      key="namespace"
+      value="SABSA"/>
+  <properties
+      key="stereotype"
+      value="StrategicAttribute"/>
+  <properties
+      key="softMetric"
+      value="Independent audit or focus groups or satisfaction survey."/>
+  <profiles
+      href="folder.xml#id-56d3cf987aae41309e7cbe00ed6d09d3"/>
+</archimate:Principle>

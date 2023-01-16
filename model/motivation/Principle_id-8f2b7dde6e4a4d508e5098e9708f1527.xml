@@ -1,0 +1,17 @@
+<archimate:Principle
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Credible"
+    id="id-8f2b7dde6e4a4d508e5098e9708f1527"
+    documentation="Changes to the system should be properly managed so that the The system should behave in such a way as to safeguard the credibility of the organisation. of every change is evaluated and the changes are approved in advance of being implemented.">
+  <properties
+      key="namespace"
+      value="SABSA"/>
+  <properties
+      key="stereotype"
+      value="StrategicAttribute"/>
+  <properties
+      key="softMetric"
+      value="Independent audit or focus groups or satisfaction survey."/>
+  <profiles
+      href="folder.xml#id-56d3cf987aae41309e7cbe00ed6d09d3"/>
+</archimate:Principle>

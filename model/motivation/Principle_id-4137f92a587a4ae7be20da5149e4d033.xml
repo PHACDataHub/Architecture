@@ -1,0 +1,20 @@
+<archimate:Principle
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Conformant"
+    id="id-4137f92a587a4ae7be20da5149e4d033"
+    documentation="Ensures conformance to an expected form, parameters or standard that can be succesfully processed.">
+  <properties
+      key="namespace"
+      value="SABSA"/>
+  <properties
+      key="stereotype"
+      value="OperationalAttribute"/>
+  <properties
+      key="hardMetric"
+      value="Tested against documented conformance criteria."/>
+  <properties
+      key="source"
+      value="TSI-MSA"/>
+  <profiles
+      href="folder.xml#id-3ebbbd97d0f14344a919a235f4a752ff"/>
+</archimate:Principle>

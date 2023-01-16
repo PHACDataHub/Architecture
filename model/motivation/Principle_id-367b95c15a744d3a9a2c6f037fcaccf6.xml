@@ -1,0 +1,17 @@
+<archimate:Principle
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Trustworthy"
+    id="id-367b95c15a744d3a9a2c6f037fcaccf6"
+    documentation="The system should be able to be trusted to behave in the ways specified in its functional specification and should protect against a wide range of potential abuses.">
+  <properties
+      key="namespace"
+      value="SABSA"/>
+  <properties
+      key="stereotype"
+      value="RiskAttribute"/>
+  <properties
+      key="softMetric"
+      value=" Focus groups or satisfaction surveys researching the question: “Do you trust the service?”"/>
+  <profiles
+      href="folder.xml#id-a5e2969e35374942933c5266a712c2e1"/>
+</archimate:Principle>

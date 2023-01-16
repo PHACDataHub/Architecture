@@ -1,0 +1,7 @@
+<archimate:Goal
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Secure Data"
+    id="id-2a81a02a7d994ce7ae285d946630a526">
+  <profiles
+      href="folder.xml#id-134e38fa0ddd455db5a32c2d9c242b06"/>
+</archimate:Goal>

@@ -1,0 +1,17 @@
+<archimate:Principle
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Capturing New Risks"
+    id="id-6a2e4a13ddb348c9a5399048e5d1759a"
+    documentation="New risks emerge over time. &#xD;&#xA;The system management and operational environment should provide a means to identify and assess new risks (new threats, new impacts, or new vulnerabilities).&#xD;&#xA;">
+  <properties
+      key="namespace"
+      value="SABSA"/>
+  <properties
+      key="stereotype"
+      value="RiskAttribute"/>
+  <properties
+      key="hardMetric"
+      value="Percentage of vendor published patches and upgrades actually installed."/>
+  <profiles
+      href="folder.xml#id-a5e2969e35374942933c5266a712c2e1"/>
+</archimate:Principle>

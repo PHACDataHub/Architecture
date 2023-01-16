@@ -2,4 +2,94 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Architecture"
     id="id-25bb9eb1ecfa4f1186e9e90318dd5c11"
-    version="4.9.0"/>
+    version="4.9.0">
+  <profiles
+      name="BusinessAttribute"
+      id="id-c1b930ab128c4e0eae2a3103e7ce8600"
+      imagePath="images/_c2suYO_nEeuJcPKRS19yTw.png"
+      conceptType="Principle"/>
+  <profiles
+      name="UserAttribute"
+      id="id-74e159ad24704a13ad5b4569a7fb1c1e"
+      imagePath="images/_c2suYO_nEeuJcPKRS19yTw.png"
+      conceptType="Principle"/>
+  <profiles
+      name="ManagementAttribute"
+      id="id-a5e2969e35374942933c5266a712c2e1"
+      imagePath="images/_c2suYO_nEeuJcPKRS19yTw.png"
+      conceptType="Principle"/>
+  <profiles
+      name="OperationalAttribute"
+      id="id-3ebbbd97d0f14344a919a235f4a752ff"
+      imagePath="images/_c2suYO_nEeuJcPKRS19yTw.png"
+      conceptType="Principle"/>
+  <profiles
+      name="Legal&amp;RegulatoryAttribute"
+      id="id-e8ac6d461c0e4fa7a806abd4e3664a64"
+      imagePath="images/_c2suYO_nEeuJcPKRS19yTw.png"
+      conceptType="Principle"/>
+  <profiles
+      name="TechnicalStrategyAttribute"
+      id="id-bf6e0c1f49e14f1ab7073362fad1cd42"
+      imagePath="images/_c2suYO_nEeuJcPKRS19yTw.png"
+      conceptType="Principle"/>
+  <profiles
+      name="BusinessStrategyAttribute"
+      id="id-56d3cf987aae41309e7cbe00ed6d09d3"
+      imagePath="images/_c2suYO_nEeuJcPKRS19yTw.png"
+      conceptType="Principle"/>
+  <profiles
+      name="DataAttribute"
+      id="id-107e7ef6c79444f382ae5422605903ee"
+      imagePath="images/_c2suYO_nEeuJcPKRS19yTw.png"
+      conceptType="Principle"/>
+  <profiles
+      name="Risk"
+      id="id-311f44eac604493b826050015e5c871b"
+      imagePath="images/_x6pUcCxPEeyorOPu_CL8HA.png"
+      conceptType="Assessment"/>
+  <profiles
+      name="Threat Agent"
+      id="id-cd51cf91fd824533b0253944ae40190d"
+      conceptType="BusinessActor"/>
+  <profiles
+      name="Threat Event"
+      id="id-2619a3b5121f437883f253fa10fd613f"
+      imagePath="images/_tJRlQCxREeyorOPu_CL8HA.png"
+      conceptType="BusinessEvent"/>
+  <profiles
+      name="Loss Event"
+      id="id-6551f8af2dce4e239c7693d9f1ecaa1c"
+      imagePath="images/_FlntcCxUEeyorOPu_CL8HA.png"
+      conceptType="BusinessEvent"/>
+  <profiles
+      name="Control Objective"
+      id="id-134e38fa0ddd455db5a32c2d9c242b06"
+      conceptType="Goal"/>
+  <profiles
+      name="Vulnerability"
+      id="id-d931521a50d3446982b3cff2f775b8ab"
+      imagePath="images/_stadwCxTEeyorOPu_CL8HA.png"
+      conceptType="Assessment"/>
+  <profiles
+      name="Asset at Risk"
+      id="id-e544f2361ff1429188394dd8584c9173"
+      conceptType="Resource"/>
+  <profiles
+      name="Security Principle"
+      id="id-2515c762cc1d4c98adab3f21d96ec837"
+      conceptType="Principle"/>
+  <profiles
+      name="Security Requirement"
+      id="id-e8db9946e8bd418ebee8a27b7fd2ecf0"
+      conceptType="Requirement"/>
+  <profiles
+      name="Control Measure"
+      id="id-a82e95509d6b432484ece11aa7434367"
+      imagePath="images/_va9pICxTEeyorOPu_CL8HA.png"
+      conceptType="Requirement"/>
+  <profiles
+      name="Implemented Control Measure"
+      id="id-7f54d49c20b94647bf47d6121cb49d3e"
+      conceptType="BusinessService"/>
+</archimate:ArchimateModel>

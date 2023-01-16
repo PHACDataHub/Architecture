@@ -1,0 +1,20 @@
+<archimate:Principle
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Regulated"
+    id="id-16910287c9384b1aa6508017e3d9063d"
+    documentation="The system should be designed, implemented, and operated in accordance with the requirements of any applicable regulations. &#xD;&#xA;These may be general (such as safety regulations) or industry-specific (such as banking regulations).">
+  <properties
+      key="namespace"
+      value="SABSA"/>
+  <properties
+      key="stereotype"
+      value="LegalAttribute"/>
+  <properties
+      key="softMetric"
+      value="Independent audit and review against Security Architecture Capability Maturity Model. "/>
+  <properties
+      key="hardMetric"
+      value="Verification of the inventory of applicable laws to check for completeness and suitability."/>
+  <profiles
+      href="folder.xml#id-e8ac6d461c0e4fa7a806abd4e3664a64"/>
+</archimate:Principle>

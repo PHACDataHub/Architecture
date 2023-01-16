@@ -1,0 +1,17 @@
+<archimate:Principle
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="In Our Sole Possession"
+    id="id-2e5e97c76a8f43708d035ff6d2ca26db"
+    documentation="Information that has value to the business should be in the sole posession of the business, stored and protected by the system against loss, theft or disclosure. This will include information that is regarded as intellectual property.">
+  <properties
+      key="namespace"
+      value="SABSA"/>
+  <properties
+      key="stereotype"
+      value="RiskAttribute"/>
+  <properties
+      key="softMetric"
+      value="Independent audit &amp; review against Security Architecture CMM."/>
+  <profiles
+      href="folder.xml#id-a5e2969e35374942933c5266a712c2e1"/>
+</archimate:Principle>

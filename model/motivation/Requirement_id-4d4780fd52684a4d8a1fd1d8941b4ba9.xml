@@ -1,0 +1,7 @@
+<archimate:Requirement
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Regular Patching"
+    id="id-4d4780fd52684a4d8a1fd1d8941b4ba9">
+  <profiles
+      href="folder.xml#id-a82e95509d6b432484ece11aa7434367"/>
+</archimate:Requirement>

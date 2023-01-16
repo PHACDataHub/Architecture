@@ -1,0 +1,17 @@
+<archimate:Principle
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Supported"
+    id="id-6bb9002b431c436fac1417cb156375f3"
+    documentation="When a user has problems or difficulties in using the system or its services, there should be a means by which the user can receive advice and support so that the problems can be resolved to the satisfaction of the user.&#xD;&#xA;">
+  <properties
+      key="namespace"
+      value="SABSA"/>
+  <properties
+      key="stereotype"
+      value="UserAttribute"/>
+  <properties
+      key="softMetric"
+      value="Focus groups or satisfaction surveys.&#xD;&#xA;Independent audit and review against Security  Architecture Capability Maturity Model"/>
+  <profiles
+      href="folder.xml#id-74e159ad24704a13ad5b4569a7fb1c1e"/>
+</archimate:Principle>

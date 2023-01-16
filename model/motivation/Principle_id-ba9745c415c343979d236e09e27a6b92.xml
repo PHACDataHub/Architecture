@@ -1,0 +1,17 @@
+<archimate:Principle
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Confident"
+    id="id-ba9745c415c343979d236e09e27a6b92"
+    documentation="The system should behave in such a way as to safeguard confidence placed in the organization by customers, suppliers, shareholders, regulators, financiers, the marketplace and the general public.">
+  <properties
+      key="namespace"
+      value="SABSA"/>
+  <properties
+      key="stereotype"
+      value="StrategicAttribute"/>
+  <properties
+      key="softMetric"
+      value="Independent audit or focus groups or satisfaction survey."/>
+  <profiles
+      href="folder.xml#id-56d3cf987aae41309e7cbe00ed6d09d3"/>
+</archimate:Principle>

@@ -1,0 +1,17 @@
+<archimate:Principle
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Cost Effective"
+    id="id-f6e6ffb31aa44bb7ae0dd63b1c48d6ab"
+    documentation="The design, acquisition, implementation and operation of the system should be achieved at a cost that the business finds acceptable when judged against the benefits derived.&#xD;&#xA;">
+  <properties
+      key="namespace"
+      value="SABSA"/>
+  <properties
+      key="stereotype"
+      value="ManagementAttribute"/>
+  <properties
+      key="hardMetric"
+      value="Individual budgets for the phases of development and for ongoing operation, maintenance and support."/>
+  <profiles
+      href="folder.xml#id-a5e2969e35374942933c5266a712c2e1"/>
+</archimate:Principle>

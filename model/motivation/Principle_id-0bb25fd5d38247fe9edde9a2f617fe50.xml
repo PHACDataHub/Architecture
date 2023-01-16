@@ -1,0 +1,20 @@
+<archimate:Principle
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Authorised"
+    id="id-0bb25fd5d38247fe9edde9a2f617fe50"
+    documentation="The system shall allow only those actions that have been explicitly authorised">
+  <properties
+      key="namespace"
+      value="SABSA"/>
+  <properties
+      key="stereotype"
+      value="RiskAttribute"/>
+  <properties
+      key="hardMetric"
+      value="Reporting of all unauthorised actiona including # / period, severity &amp; result (success/faiure)"/>
+  <properties
+      key="softMetric"
+      value="Independent audit and review against Security Architecture Capability Maturity Model with respect to the ability to detect unauthorised actions."/>
+  <profiles
+      href="folder.xml#id-a5e2969e35374942933c5266a712c2e1"/>
+</archimate:Principle>

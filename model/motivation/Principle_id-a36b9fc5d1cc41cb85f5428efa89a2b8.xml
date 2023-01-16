@@ -1,0 +1,17 @@
+<archimate:Principle
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Crime Free"
+    id="id-a36b9fc5d1cc41cb85f5428efa89a2b8"
+    documentation="Cyber-crime of all types should be prevented.&#xD;&#xA;">
+  <properties
+      key="namespace"
+      value="SABSA"/>
+  <properties
+      key="stereotype"
+      value="RiskAttribute"/>
+  <properties
+      key="hardMetric"
+      value="Reporting of all incidents  of crime, including number of incidents per period, severity, and type of crime."/>
+  <profiles
+      href="folder.xml#id-a5e2969e35374942933c5266a712c2e1"/>
+</archimate:Principle>

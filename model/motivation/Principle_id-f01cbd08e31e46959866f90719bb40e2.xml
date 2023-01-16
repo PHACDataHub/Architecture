@@ -1,0 +1,17 @@
+<archimate:Principle
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Current"
+    id="id-f01cbd08e31e46959866f90719bb40e2"
+    documentation="Information about data subjects should be actively maintained as contemporary and brought up-to-date as necessary and applicable for the service being delivered.">
+  <properties
+      key="namespace"
+      value="SABSA"/>
+  <properties
+      key="stereotype"
+      value="UserAttribute"/>
+  <properties
+      key="hardMetric"
+      value="# Data Subject complaints relating to Right to Rectification"/>
+  <profiles
+      href="folder.xml#id-74e159ad24704a13ad5b4569a7fb1c1e"/>
+</archimate:Principle>

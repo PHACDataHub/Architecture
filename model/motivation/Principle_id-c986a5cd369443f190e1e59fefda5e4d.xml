@@ -1,0 +1,17 @@
+<archimate:Principle
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Usable"
+    id="id-c986a5cd369443f190e1e59fefda5e4d"
+    documentation="The system should provide easy-to-use interfaces that can be navigated intuitively by a user of average intelligence and training level (for the given system). &#xD;&#xA;The user’s experience of these interactions should be at best interesting and at worst neutral.">
+  <properties
+      key="namespace"
+      value="SABSA"/>
+  <properties
+      key="stereotype"
+      value="UserAttribute"/>
+  <properties
+      key="softMetric"
+      value="Number of “clicks” or keystrokes required.&#xA; Conformance with industry standards, e.g. colour palettes. &#xA;Feedback  from focus groups."/>
+  <profiles
+      href="folder.xml#id-74e159ad24704a13ad5b4569a7fb1c1e"/>
+</archimate:Principle>

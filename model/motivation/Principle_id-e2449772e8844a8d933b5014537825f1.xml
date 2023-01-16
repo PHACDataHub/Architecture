@@ -1,0 +1,17 @@
+<archimate:Principle
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Measured"
+    id="id-e2449772e8844a8d933b5014537825f1"
+    documentation="The performance of the system should be measured against a variety of desirable performance targets so as to provide feedback information to support the management and control process. ">
+  <properties
+      key="namespace"
+      value="SABSA"/>
+  <properties
+      key="stereotype"
+      value="ManagementAttribute"/>
+  <properties
+      key="hardMetric"
+      value="Documented tracking and reporting of a portfolio of conventional system performance parameters, together with other attributes from this list."/>
+  <profiles
+      href="folder.xml#id-a5e2969e35374942933c5266a712c2e1"/>
+</archimate:Principle>

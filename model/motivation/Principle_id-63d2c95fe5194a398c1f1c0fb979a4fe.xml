@@ -1,0 +1,20 @@
+<archimate:Principle
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Secure By Default"
+    id="id-63d2c95fe5194a398c1f1c0fb979a4fe"
+    documentation="System configurations are set by default to an approved baseline that ensures security &amp; compliance in operation.">
+  <properties
+      key="namespace"
+      value="SABSA"/>
+  <properties
+      key="stereotype"
+      value="TechnicalAttribute"/>
+  <properties
+      key="hardMetric"
+      value="#Deviations (by severity) in systems deployed in Production, not covered by an appoved Exception.."/>
+  <properties
+      key="softMetric"
+      value="Security Baselines configuations are defined, documented, reviewed and approved."/>
+  <profiles
+      href="folder.xml#id-bf6e0c1f49e14f1ab7073362fad1cd42"/>
+</archimate:Principle>

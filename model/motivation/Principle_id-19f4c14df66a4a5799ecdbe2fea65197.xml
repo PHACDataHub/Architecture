@@ -1,0 +1,17 @@
+<archimate:Principle
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Private"
+    id="id-19f4c14df66a4a5799ecdbe2fea65197"
+    documentation="The privacy of (personal) information should be protected in accordance with relevant privacy or “data protection” legislation, so as to meet the reasonable expectation of citizens for privacy. &#xD;&#xA;Unauthorised disclosure should be prevented.">
+  <properties
+      key="namespace"
+      value="SABSA"/>
+  <properties
+      key="stereotype"
+      value="RiskAttribute"/>
+  <properties
+      key="hardMetric"
+      value="Reporting of all disclosure incidents, including number of incidents per period, severity, and type of disclosure."/>
+  <profiles
+      href="folder.xml#id-a5e2969e35374942933c5266a712c2e1"/>
+</archimate:Principle>

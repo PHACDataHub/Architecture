@@ -1,0 +1,23 @@
+<archimate:Principle
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Integrity Protected"
+    id="id-1d5d7410dd3d4b908adea32c106f51cf"
+    documentation="The integrity of data should be protected against unauthorised modification, duplication, or deletion.">
+  <properties
+      key="namespace"
+      value="SABSA"/>
+  <properties
+      key="stereotype"
+      value="DataAttribute"/>
+  <properties
+      key="hardMetric"
+      value="% of integrity-sensitive data that is protected against unauthorised modification."/>
+  <properties
+      key="softMetric"
+      value="Independent audit and review against Security Architecture Capability Maturity Model with respect to the ability to detect integrity compromise incidents."/>
+  <properties
+      key="source"
+      value="TSI-MSA"/>
+  <profiles
+      href="folder.xml#id-107e7ef6c79444f382ae5422605903ee"/>
+</archimate:Principle>

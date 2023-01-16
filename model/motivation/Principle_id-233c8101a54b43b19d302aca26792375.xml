@@ -1,0 +1,20 @@
+<archimate:Principle
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Compliant"
+    id="id-233c8101a54b43b19d302aca26792375"
+    documentation="The technology should be certified against applicable technical standards (FIPS, SWIFT) and should be configured / operated to maintain the organisation's compliance  line with industry regulations (GDPR, PCI, SOX, FINRA, etc.).">
+  <properties
+      key="namespace"
+      value="SABSA"/>
+  <properties
+      key="stereotype"
+      value="TechnicalAttribute"/>
+  <properties
+      key="softMetric"
+      value="Independent technical compliance audit of baselines for configuration, monitoring &amp; management"/>
+  <properties
+      key="hardMetric"
+      value="Product certification &amp; patch status."/>
+  <profiles
+      href="folder.xml#id-bf6e0c1f49e14f1ab7073362fad1cd42"/>
+</archimate:Principle>

@@ -1,0 +1,23 @@
+<archimate:Principle
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Protected"
+    id="id-37ae3dceec2443f29d27689cf8e2a675"
+    documentation="Data should be protected against unauthorised or unlawful processing and against accidental loss, destruction or damage.">
+  <properties
+      key="namespace"
+      value="SABSA"/>
+  <properties
+      key="stereotype"
+      value="DataAttribute"/>
+  <properties
+      key="softMetric"
+      value="Independent audit of DPIA Process Register that tracks the processing of all Personal Data"/>
+  <properties
+      key="hardMetric"
+      value="# Data Subject complaints relating to Right to Restriction of Processing"/>
+  <properties
+      key="source"
+      value="TSI-MSA"/>
+  <profiles
+      href="folder.xml#id-107e7ef6c79444f382ae5422605903ee"/>
+</archimate:Principle>

@@ -1,0 +1,17 @@
+<archimate:Principle
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Reliable"
+    id="id-9d1925d1634041f780f41b98e7ac479a"
+    documentation="The services provided to the user should be delivered at a reliable level of quality. ">
+  <properties
+      key="namespace"
+      value="SABSA"/>
+  <properties
+      key="stereotype"
+      value="UserAttribute"/>
+  <properties
+      key="softMetric"
+      value="A definition of “quality” is needed against which to compare."/>
+  <profiles
+      href="folder.xml#id-74e159ad24704a13ad5b4569a7fb1c1e"/>
+</archimate:Principle>

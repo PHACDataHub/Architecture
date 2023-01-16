@@ -1,0 +1,20 @@
+<archimate:Principle
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Secure By Design"
+    id="id-a01441850d3545ee9dabcacba01522ea"
+    documentation="Technical measures that ensure security &amp; compliance are specified in the architectural design and cascaded to system, sub-system and component design.">
+  <properties
+      key="namespace"
+      value="SABSA"/>
+  <properties
+      key="stereotype"
+      value="TechnicalAttribute"/>
+  <properties
+      key="hardMetric"
+      value="#Approved security requirements (by severity) not yet implemented in Production."/>
+  <properties
+      key="softMetric"
+      value="Security requirements are identified and addressed in all design documentation, reviewed and approved."/>
+  <profiles
+      href="folder.xml#id-bf6e0c1f49e14f1ab7073362fad1cd42"/>
+</archimate:Principle>

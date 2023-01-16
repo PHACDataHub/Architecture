@@ -1,0 +1,20 @@
+<archimate:Principle
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Registered"
+    id="id-ff83a99318414c1d9e0b7cc945ee4cd2"
+    documentation="The system is formally recorded on a definitive list, register or catalogue&#xD;&#xA;e.g. conferring legitimacy, auditability">
+  <properties
+      key="namespace"
+      value="SABSA"/>
+  <properties
+      key="stereotype"
+      value="RiskAttribute"/>
+  <properties
+      key="hardMetric"
+      value="Completreness / accuracy of the Register"/>
+  <properties
+      key="source"
+      value="TSI-MSA"/>
+  <profiles
+      href="folder.xml#id-a5e2969e35374942933c5266a712c2e1"/>
+</archimate:Principle>

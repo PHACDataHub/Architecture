@@ -1,0 +1,17 @@
+<archimate:Principle
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Enforceable"
+    id="id-8b9265fbaec84cd5a1ae85642082f909"
+    documentation="The system should be designed, implemented and operated such that all applicable contracts, policies, regulations, and laws can be enforced by the system. ">
+  <properties
+      key="namespace"
+      value="SABSA"/>
+  <properties
+      key="stereotype"
+      value="LegalAttribute"/>
+  <properties
+      key="softMetric"
+      value="Independent review of inventory of contracts, policies, regulations &amp; laws for completeness and enforceability of contracts, policies, laws &amp; regulations on the inventory."/>
+  <profiles
+      href="folder.xml#id-e8ac6d461c0e4fa7a806abd4e3664a64"/>
+</archimate:Principle>

@@ -1,0 +1,17 @@
+<archimate:Principle
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Accurate"
+    id="id-e98e4928fbc94bc898abc363d00739de"
+    documentation="The information held about data subjects should be accurate within a range that has been pre-agreed as being applicable to the service being delivered.">
+  <properties
+      key="namespace"
+      value="SABSA"/>
+  <properties
+      key="stereotype"
+      value="UserAttribute"/>
+  <properties
+      key="hardMetric"
+      value="Audit records demonstrating active management of data provenance, change control and recertification cycles"/>
+  <profiles
+      href="folder.xml#id-74e159ad24704a13ad5b4569a7fb1c1e"/>
+</archimate:Principle>

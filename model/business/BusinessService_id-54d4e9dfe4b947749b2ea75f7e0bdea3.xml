@@ -1,0 +1,7 @@
+<archimate:BusinessService
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Patching Service"
+    id="id-54d4e9dfe4b947749b2ea75f7e0bdea3">
+  <profiles
+      href="folder.xml#id-7f54d49c20b94647bf47d6121cb49d3e"/>
+</archimate:BusinessService>

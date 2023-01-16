@@ -1,0 +1,17 @@
+<archimate:Principle
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Monitored"
+    id="id-c7f87a681c2044d9874eb3bac68e5590"
+    documentation="The operational performance of the system should be continuously monitored to ensure that other attribute specifications are being met.&#xD;&#xA;Any deviations from acceptable limits should be notified to the systems management function">
+  <properties
+      key="namespace"
+      value="SABSA"/>
+  <properties
+      key="stereotype"
+      value="OperationalAttribute"/>
+  <properties
+      key="softMetric"
+      value="Independent audit and review against Security Architecture Capability  Maturity Model"/>
+  <profiles
+      href="folder.xml#id-3ebbbd97d0f14344a919a235f4a752ff"/>
+</archimate:Principle>

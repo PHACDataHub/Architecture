@@ -1,0 +1,17 @@
+<archimate:Principle
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Scalable"
+    id="id-e477059455794d66aa82aa54c584515b"
+    documentation="The system should be scaleable to the size of user community, data storage requirements, processing throughput etc. that might emerge over the lifetime of the system.">
+  <properties
+      key="namespace"
+      value="SABSA"/>
+  <properties
+      key="stereotype"
+      value="TechnicalAttribute"/>
+  <properties
+      key="hardMetric"
+      value="Independent audit and review against Security Architecture Capability Maturity Model of technical architecture (conceptual, logical and physical)"/>
+  <profiles
+      href="folder.xml#id-bf6e0c1f49e14f1ab7073362fad1cd42"/>
+</archimate:Principle>

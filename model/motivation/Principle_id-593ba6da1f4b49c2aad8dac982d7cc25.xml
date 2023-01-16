@@ -1,0 +1,17 @@
+<archimate:Principle
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Standards Compliant"
+    id="id-593ba6da1f4b49c2aad8dac982d7cc25"
+    documentation="The system should be designed, implemented and operated to comply with appropriate technical and operational standards. ">
+  <properties
+      key="namespace"
+      value="SABSA"/>
+  <properties
+      key="stereotype"
+      value="TechnicalAttribute"/>
+  <properties
+      key="hardMetric"
+      value="Independent audit and review of the inventory of standards to check for completeness and appropriateness and compliance with standards on the inventory."/>
+  <profiles
+      href="folder.xml#id-bf6e0c1f49e14f1ab7073362fad1cd42"/>
+</archimate:Principle>

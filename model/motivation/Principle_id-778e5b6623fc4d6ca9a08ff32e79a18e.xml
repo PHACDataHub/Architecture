@@ -1,0 +1,17 @@
+<archimate:Principle
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Physically Secure"
+    id="id-778e5b6623fc4d6ca9a08ff32e79a18e"
+    documentation="Assets are adequately protected from physical  threats">
+  <properties
+      key="namespace"
+      value="SABSA"/>
+  <properties
+      key="stereotype"
+      value="OperationalAttribute"/>
+  <properties
+      key="softMetric"
+      value="Independent audit and review against Physical &amp;  Environmental Protection policy and procedures."/>
+  <profiles
+      href="folder.xml#id-3ebbbd97d0f14344a919a235f4a752ff"/>
+</archimate:Principle>

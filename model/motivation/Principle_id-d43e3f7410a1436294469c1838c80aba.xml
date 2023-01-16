@@ -1,0 +1,17 @@
+<archimate:Principle
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Business Attribute"
+    id="id-d43e3f7410a1436294469c1838c80aba"
+    documentation="Although every business organisation is unique, the same types of business drivers are seen again and again in different organisations, even in different industry sectors.&#xD;&#xA;This led the SABSA authors to compile the Taxonomy of Business Attributes based entirely on an analysis of the practical experience with clients.">
+  <properties
+      key="isAbstract"
+      value="TRUE"/>
+  <properties
+      key="namespace"
+      value="SABSA"/>
+  <properties
+      key="stereotype"
+      value="BusinessAttribute"/>
+  <profiles
+      href="folder.xml#id-c1b930ab128c4e0eae2a3103e7ce8600"/>
+</archimate:Principle>

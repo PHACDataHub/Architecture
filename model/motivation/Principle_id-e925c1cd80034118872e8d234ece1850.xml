@@ -1,0 +1,17 @@
+<archimate:Principle
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Controlled"
+    id="id-e925c1cd80034118872e8d234ece1850"
+    documentation="The system should at all times remain in the control of its managers. &#xD;&#xA;This means that the management will observe the operation and behaviour of the system, will make decisions about how to control it based on these observations, and will implement actions to exert that control.">
+  <properties
+      key="namespace"
+      value="SABSA"/>
+  <properties
+      key="stereotype"
+      value="ManagementAttribute"/>
+  <properties
+      key="softMetric"
+      value="Independent audit and review against Security Architecture Capability Maturity Model."/>
+  <profiles
+      href="folder.xml#id-a5e2969e35374942933c5266a712c2e1"/>
+</archimate:Principle>

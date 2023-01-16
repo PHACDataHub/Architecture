@@ -1,0 +1,17 @@
+<archimate:Principle
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Insurable"
+    id="id-ff81d604963b48c98a54462dd77a43ea"
+    documentation="The system should be risk-managed to enable an insurer to offer reasonable commercial terms for insurance against a standard range of insurable risks.">
+  <properties
+      key="namespace"
+      value="SABSA"/>
+  <properties
+      key="stereotype"
+      value="LegalAttribute"/>
+  <properties
+      key="hardMetric"
+      value="Verify against insurance quotations."/>
+  <profiles
+      href="folder.xml#id-e8ac6d461c0e4fa7a806abd4e3664a64"/>
+</archimate:Principle>
