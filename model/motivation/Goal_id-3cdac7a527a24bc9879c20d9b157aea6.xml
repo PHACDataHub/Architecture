@@ -1,0 +1,7 @@
+<archimate:Goal
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Enable the integration of data, surveillance and other sources of intelligence to anticipate and understand public health risks and prompt timely action to address them."
+    id="id-3cdac7a527a24bc9879c20d9b157aea6">
+  <profiles
+      href="folder.xml#id-134e38fa0ddd455db5a32c2d9c242b06"/>
+</archimate:Goal>
