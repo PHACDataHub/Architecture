@@ -1,4 +1,0 @@
-<archimate:Requirement
-    xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="All application components must communicate via API including separated UI, and Data services"
-    id="id-49e36f1e3b974c2b998ba84407de4066"/>

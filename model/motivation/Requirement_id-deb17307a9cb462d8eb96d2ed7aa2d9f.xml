@@ -1,4 +1,0 @@
-<archimate:Requirement
-    xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Access to PHAC projects/subscriptions must require hardware security keys (Yubikeys) for all users, including HC Cloud Ops teams."
-    id="id-deb17307a9cb462d8eb96d2ed7aa2d9f"/>

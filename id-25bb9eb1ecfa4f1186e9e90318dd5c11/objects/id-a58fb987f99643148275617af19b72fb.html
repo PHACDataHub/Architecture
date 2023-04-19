@@ -1,0 +1,135 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html class="frame" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+	<title>IaaS/PaaS Architecture</title>
+
+	<!-- JQUERY (use 1.x branch to be compatible with IE 6/7/8) -->
+	<script type="text/javascript" src="../../lib/jquery/js/jquery-1.11.2.min.js"></script>
+	<!-- BOOTSTRAP -->
+	<link type="text/css" rel="stylesheet" href="../../lib/bootstrap/css/bootstrap.min.yeti.css">
+	<script type="text/javascript" src="../../lib/bootstrap/js/bootstrap-3.3.2.min.js"></script>
+	<!-- REPORT SPECIFIC -->
+	<link type="text/css" rel="stylesheet" href="../../css/model.css">
+	<link type="text/css" rel="stylesheet" href="../../css/i18n.css">
+	<script type="text/javascript" src="../../js/frame.js"></script>
+	<script type="text/javascript" src="../../js/imageMapResizer.min.js"></script>
+</head>
+
+<body>
+	<div class="panel panel-default root-panel">
+
+		<div class="panel-heading root-panel-heading">
+            <!-- Name -->
+               <b>IaaS/PaaS Architecture</b>
+
+            <!-- If a View with Viewpoint -->
+			   (<span class="i18n-elementtype-DiagramModelGroup"></span>)
+			   <a class="glyphicon glyphicon-info-sign" id="hint-DiagramModelGroup" target="hint"></a>
+		</div>
+
+		<div class="panel-body root-panel-body">
+		    <!-- If this is a digram model (has children and no bounds) show the image -->
+
+			<div role="tabpanel">
+				<!-- Nav tabs -->
+				<ul class="nav nav-tabs" role="tablist">
+                    <!-- Purpose / Documentation / Content -->
+					   <li role="presentation" class="active"><a href="#documentation" aria-controls="documentation" role="tab" data-toggle="tab" class="i18n-documentation"></a></li>
+
+                    <!-- Properties -->
+                    <li role="presentation"><a href="#properties" aria-controls="properties" role="tab" data-toggle="tab" class="i18n-properties"></a></li>
+
+						<li role="presentation"><a href="#elements" aria-controls="elements" role="tab" data-toggle="tab" class="i18n-elements"></a></li>
+						<li role="presentation"><a href="#relationships" aria-controls="relationships" role="tab" data-toggle="tab" class="i18n-relationships"></a></li>
+                    <!-- Model, Query Tab -->
+				</ul>
+
+				<!-- Tab panes -->
+				<div class="tab-content">
+					<div role="tabpanel" class="tab-pane active" id="documentation">
+						<div class="convertlinks documentation" style="white-space:pre-wrap"></div>
+					</div>
+					<div role="tabpanel" class="tab-pane" id="properties">
+						<table class="table table-striped table-hover table-condensed">
+							<thead>
+								<tr>
+									<th class="i18n-key"></th>
+									<th class="i18n-value"></th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr><td>Maturity</td><td class="convertlinks no-margin" style="white-space:pre-wrap">New</td></tr><tr><td>Scope</td><td class="convertlinks no-margin" style="white-space:pre-wrap"></td></tr>
+							</tbody>
+						</table>
+					</div>
+						<div role="tabpanel" class="tab-pane" id="elements">
+							<table class="table table-striped table-hover table-condensed">
+								<thead>
+									<tr>
+										<th class="i18n-name"></th>
+										<th class="i18n-type"></th>
+									</tr>
+								</thead>
+								<tbody>
+											<tr>
+											    <td> <a href="../elements/id-7664362978134ae09ada7f62374987ee.html" target="element"> Kubernetes/containers as the core infrastructure technology  </a> </td>
+											    <td> <a href="../elements/id-7664362978134ae09ada7f62374987ee.html" target="element" class="i18n-elementtype-Requirement">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-de081cbd03d34c6fad75f79322a1f6fd.html" target="element"> No Hub and Spoke architecture (dedicated network and/or security appliances within each project)  </a> </td>
+											    <td> <a href="../elements/id-de081cbd03d34c6fad75f79322a1f6fd.html" target="element" class="i18n-elementtype-Goal">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-f495fbfea32b4d888f4cc18b1c2dd868.html" target="element"> Linux environments over Windows environments </a> </td>
+											    <td> <a href="../elements/id-f495fbfea32b4d888f4cc18b1c2dd868.html" target="element" class="i18n-elementtype-Requirement">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-a45b75624a814c84b0b047db7894fe81.html" target="element"> No interconnections with HC to isolate risk </a> </td>
+											    <td> <a href="../elements/id-a45b75624a814c84b0b047db7894fe81.html" target="element" class="i18n-elementtype-Requirement">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-49e36f1e3b974c2b998ba84407de4066.html" target="element"> All application components must communicate via API including separated UI, and Data services </a> </td>
+											    <td> <a href="../elements/id-49e36f1e3b974c2b998ba84407de4066.html" target="element" class="i18n-elementtype-Requirement">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-aed3cbe87ef34bdb9bb58d7c9921f835.html" target="element"> Connectivity with SSC managed cloud components (Cloud to Ground / SCED) via separately managed infrastructure </a> </td>
+											    <td> <a href="../elements/id-aed3cbe87ef34bdb9bb58d7c9921f835.html" target="element" class="i18n-elementtype-Goal">
+											    </a> </td>
+											</tr>
+
+
+								</tbody>
+							</table>
+						</div>
+						<div role="tabpanel" class="tab-pane" id="relationships">
+							<table class="table table-striped table-hover table-condensed">
+								<thead>
+									<tr>
+										<th class="i18n-name"></th>
+										<th class="i18n-type"></th>
+										<th class="i18n-source"></th>
+										<th class="i18n-target"></th>
+									</tr>
+								</thead>
+								<tbody>
+								</tbody>
+							</table>
+						</div>
+			  </div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">imageMapResize();</script>
+</body>
+</html>

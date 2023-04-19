@@ -1,0 +1,1054 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html class="frame" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+	<title>Safe Inputs High Level Technical Architecture</title>
+
+	<!-- JQUERY (use 1.x branch to be compatible with IE 6/7/8) -->
+	<script type="text/javascript" src="../../lib/jquery/js/jquery-1.11.2.min.js"></script>
+	<!-- BOOTSTRAP -->
+	<link type="text/css" rel="stylesheet" href="../../lib/bootstrap/css/bootstrap.min.yeti.css">
+	<script type="text/javascript" src="../../lib/bootstrap/js/bootstrap-3.3.2.min.js"></script>
+	<!-- REPORT SPECIFIC -->
+	<link type="text/css" rel="stylesheet" href="../../css/model.css">
+	<link type="text/css" rel="stylesheet" href="../../css/i18n.css">
+	<script type="text/javascript" src="../../js/frame.js"></script>
+	<script type="text/javascript" src="../../js/imageMapResizer.min.js"></script>
+</head>
+
+<body>
+	<div class="panel panel-default root-panel">
+
+		<div class="panel-heading root-panel-heading">
+            <!-- Name -->
+               <b>Safe Inputs High Level Technical Architecture</b>
+
+            <!-- If a View with Viewpoint -->
+			   (<span class="i18n-viewpoint-"></span>)
+			   <a class="glyphicon glyphicon-info-sign" id="hint-viewpoint_" target="hint"></a>
+            <!-- Or if a model (i.e has Purpose method) -->
+		</div>
+
+		<div class="panel-body root-panel-body">
+		    <!-- If this is a digram model (has children and no bounds) show the image -->
+			   <img class="diagram" src="../images/id-14de78b863134e239033f3c80890888f.png" alt="Safe Inputs High Level Technical Architecture" usemap="#id-14de78b863134e239033f3c80890888fmap"/>
+			   <map name="id-14de78b863134e239033f3c80890888fmap">
+				  				<area shape="rect" coords="838,2146,958,2207" href="../elements/id-70a08ac9345b4f08a67d72bdb702be49.html"  target="element">
+				  				<area shape="rect" coords="838,2074,958,2135" href="../elements/id-2c3885a7a78843e09e3ef2b41fe77d65.html"  target="element">
+				  				<area shape="rect" coords="838,1978,958,2051" href="../elements/id-284439502d684fcb9adda7938dfed57e.html"  target="element">
+				  				<area shape="rect" coords="838,1822,958,1877" href="../elements/id-db7ef21ff0f74a46ae9cbc09affeadf0.html"  target="element">
+				  				<area shape="rect" coords="838,1894,958,1967" href="../elements/id-fd2c53114e294c6a8a302388c8a0c795.html"  target="element">
+				  				<area shape="rect" coords="646,2110,766,2165" href="../elements/id-5b28e0e5958d426fa93598f01280dcc8.html"  target="element">
+				  				<area shape="rect" coords="646,2038,766,2093" href="../elements/id-dfa676e9fc9f4ffe9043b0459996bce4.html"  target="element">
+				  				<area shape="rect" coords="646,1966,766,2021" href="../elements/id-43569d92b0544b24abe11b7cc295c59c.html"  target="element">
+				  				<area shape="rect" coords="646,1894,766,1949" href="../elements/id-c7748fdcdf1e43fe9418c0ebe75e625d.html"  target="element">
+				  				<area shape="rect" coords="646,1822,766,1877" href="../elements/id-ad81bf5642d0403292a526678ec096f6.html"  target="element">
+
+				          <area shape="rect" coords="610,1774,1043,2279" href="../objects/id-cb6e486dfc4f403eb6f66cc095d0b7c4.html" target="element" >
+				  						<area shape="rect" coords="406,1870,526,1925" href="../elements/id-5b28e0e5958d426fa93598f01280dcc8.html"  target="element">
+				  						<area shape="rect" coords="262,2086,382,2141" href="../elements/id-dfa676e9fc9f4ffe9043b0459996bce4.html"  target="element">
+				  						<area shape="rect" coords="262,2014,382,2069" href="../elements/id-43569d92b0544b24abe11b7cc295c59c.html"  target="element">
+				  						<area shape="rect" coords="262,1942,382,1997" href="../elements/id-c7748fdcdf1e43fe9418c0ebe75e625d.html"  target="element">
+				  						<area shape="rect" coords="262,1870,382,1925" href="../elements/id-ad81bf5642d0403292a526678ec096f6.html"  target="element">
+
+				  		        <area shape="rect" coords="226,1822,562,2170" href="../objects/id-d9a2f5372d4b44f9911e9a5090bed171.html" target="element" >
+				  						<area shape="rect" coords="58,2038,178,2093" href="../elements/id-bfcbe44d39b74baf8d794884edd0da09.html"  target="element">
+				  						<area shape="rect" coords="58,1954,178,2009" href="../elements/id-76fcba1b89d142e497b215f44424d283.html"  target="element">
+				  						<area shape="rect" coords="58,1870,178,1925" href="../elements/id-0c965e4beafd43a38a6a21585745c983.html"  target="element">
+
+				  		        <area shape="rect" coords="22,1822,214,2122" href="../objects/id-c05ab08ae159457aba40424f5df68787.html" target="element" >
+
+				          <area shape="rect" coords="10,1774,598,2194" href="../objects/id-b5aa61ab50e24bf3bc57a6fd13345fb0.html" target="element" >
+				  				<area shape="rect" coords="789,1618,909,1673" href="../elements/id-c3a01d6aef484cb7adef55ceda7bf17a.html"  target="element">
+				  				<area shape="rect" coords="789,1546,909,1601" href="../elements/id-8d23cd4a672942a183b8242001c53004.html"  target="element">
+				  				<area shape="rect" coords="790,1474,910,1529" href="../elements/id-93da7766b06f4476b63bc7ce8eeb7570.html"  target="element">
+				  				<area shape="rect" coords="790,1378,910,1463" href="../elements/id-a83968c8d63444d1899995e618ed37d7.html"  target="element">
+				  				<area shape="rect" coords="791,1258,909,1367" href="../elements/id-eee960ba964f4831a70895c3d967e96a.html"  target="element">
+				  								<area shape="rect" coords="371,1534,491,1589" href="../elements/id-bfcbe44d39b74baf8d794884edd0da09.html"  target="element">
+				  								<area shape="rect" coords="371,1450,491,1505" href="../elements/id-76fcba1b89d142e497b215f44424d283.html"  target="element">
+				  								<area shape="rect" coords="371,1366,491,1421" href="../elements/id-0c965e4beafd43a38a6a21585745c983.html"  target="element">
+
+				  				        <area shape="rect" coords="335,1318,735,1618" href="../objects/id-509163979ead4127954c2779ca442f0d.html" target="element" >
+				  								<area shape="rect" coords="191,1534,311,1589" href="../elements/id-d1e65c7a12934196b31cc3826e7b7874.html"  target="element">
+				  								<area shape="rect" coords="191,1450,311,1505" href="../elements/id-e934002804524a3b9f1e00b9f98305b9.html"  target="element">
+				  								<area shape="rect" coords="191,1366,311,1421" href="../elements/id-17f1bf0b7de640db81f05e78b92658d5.html"  target="element">
+				  								<area shape="rect" coords="47,1450,167,1505" href="../elements/id-c182a46d22d24285aadd264deab73601.html"  target="element">
+
+				  				        <area shape="rect" coords="35,1318,323,1618" href="../objects/id-2bd6d1ea8a3e4e13906ffd2e37e1bb7e.html" target="element" >
+
+				  				<area shape="rect" coords="23,1258,767,1654" href="../elements/id-c2fdfbeb9ae6408aa6ee2dc2ad728bef.html"  target="element">
+
+				          <area shape="rect" coords="11,1222,1043,1726" href="../objects/id-50548cda1a0e4f11a468a066285cfdc4.html" target="element" >
+				  						<area shape="rect" coords="748,874,868,959" href="../elements/id-d6b6207f1ddc4549beb308d9b9849d0c.html"  target="element">
+				  						<area shape="rect" coords="550,874,670,929" href="../elements/id-475c962c94ed48adb323791f217ba2f2.html"  target="element">
+
+				  				<area shape="rect" coords="514,838,970,1006" href="../elements/id-2ad33e2472954e268f9cd3ac9f062684.html"  target="element">
+				  						<area shape="rect" coords="766,430,886,485" href="../elements/id-631a62f9f5f24f668b491b0fcd1f42e5.html"  target="element">
+				  						<area shape="rect" coords="766,646,886,731" href="../elements/id-7b16204c645f4b66b555d7494fb45b34.html"  target="element">
+				  						<area shape="rect" coords="568,646,688,701" href="../elements/id-394fc2c325de4b4bb211324ab64a00ae.html"  target="element">
+				  						<area shape="rect" coords="766,574,886,629" href="../elements/id-44f2d79e47e746858e6ebfd656a1e728.html"  target="element">
+				  						<area shape="rect" coords="766,502,886,557" href="../elements/id-35b43c6d027d4bf9837f889d8ee45138.html"  target="element">
+				  						<area shape="rect" coords="568,502,688,557" href="../elements/id-5a59c41795e2486782fa3d941123e661.html"  target="element">
+				  						<area shape="rect" coords="766,359,886,414" href="../elements/id-eca4fd1ba5c34470a0ab82cbbb52c8d7.html"  target="element">
+				  						<area shape="rect" coords="568,359,688,414" href="../elements/id-7da0830eb3f647d881ca8202757365bd.html"  target="element">
+
+				  				<area shape="rect" coords="514,322,983,815" href="../elements/id-f5b9ce98f41a470e8732cece14ae7bca.html"  target="element">
+				  						<area shape="rect" coords="202,1066,322,1121" href="../elements/id-c3a01d6aef484cb7adef55ceda7bf17a.html"  target="element">
+				  						<area shape="rect" coords="202,994,322,1049" href="../elements/id-8d23cd4a672942a183b8242001c53004.html"  target="element">
+				  						<area shape="rect" coords="203,922,323,977" href="../elements/id-93da7766b06f4476b63bc7ce8eeb7570.html"  target="element">
+				  						<area shape="rect" coords="202,790,322,875" href="../elements/id-a83968c8d63444d1899995e618ed37d7.html"  target="element">
+				  						<area shape="rect" coords="40,790,160,845" href="../elements/id-f657396a2d5c41f295f89867c32ec113.html"  target="element">
+				  						<area shape="rect" coords="33,1066,153,1121" href="../elements/id-2b6406f4a21c41f791bb2dfae65c3ec0.html"  target="element">
+				  						<area shape="rect" coords="34,994,154,1049" href="../elements/id-49e9dfd9e01641c7894c32d979cca531.html"  target="element">
+				  						<area shape="rect" coords="40,922,160,977" href="../elements/id-ad6f8924b9b9466da7ae78a295f9aeeb.html"  target="element">
+				  						<area shape="rect" coords="202,682,322,767" href="../elements/id-7b16204c645f4b66b555d7494fb45b34.html"  target="element">
+				  						<area shape="rect" coords="40,682,160,737" href="../elements/id-c56253be106347628dd0a48a72fe5fe7.html"  target="element">
+				  						<area shape="rect" coords="203,538,323,593" href="../elements/id-b7fe1a1a705d4b4697f65ae9e287a691.html"  target="element">
+				  						<area shape="rect" coords="202,610,322,665" href="../elements/id-2d5a1bc249fd4356b3bd78accb855ce3.html"  target="element">
+				  						<area shape="rect" coords="40,610,160,665" href="../elements/id-e0fa54febc1543979aa2f4fbb36325b2.html"  target="element">
+				  						<area shape="rect" coords="203,468,323,523" href="../elements/id-e9b794e4943a4b0da08a30f8ec722904.html"  target="element">
+				  						<area shape="rect" coords="40,466,160,521" href="../elements/id-61204f41a74f48e0be2ec96436d3f2d5.html"  target="element">
+				  						<area shape="rect" coords="203,381,323,436" href="../elements/id-eee960ba964f4831a70895c3d967e96a.html"  target="element">
+				  						<area shape="rect" coords="40,381,160,455" href="../elements/id-c2fdfbeb9ae6408aa6ee2dc2ad728bef.html"  target="element">
+
+				  				<area shape="rect" coords="10,322,491,1139" href="../elements/id-599467e12a6f41848be7cf857088b6b2.html"  target="element">
+
+				          <area shape="rect" coords="10,262,1043,1199" href="../objects/id-711f8ee9eb5b4efb9be93b2a3162f26d.html" target="element" >
+				  				<area shape="rect" coords="238,130,358,185" href="../elements/id-2ad33e2472954e268f9cd3ac9f062684.html"  target="element">
+				  				<area shape="rect" coords="238,58,358,113" href="../elements/id-f5b9ce98f41a470e8732cece14ae7bca.html"  target="element">
+				  				<area shape="rect" coords="34,58,154,113" href="../elements/id-599467e12a6f41848be7cf857088b6b2.html"  target="element">
+
+				          <area shape="rect" coords="10,10,410,234" href="../objects/id-7fde66df68d54ba09a2f495274ca2540.html" target="element" >
+
+			   </map>
+
+			<div role="tabpanel">
+				<!-- Nav tabs -->
+				<ul class="nav nav-tabs" role="tablist">
+                    <!-- Purpose / Documentation / Content -->
+					   <li role="presentation" class="active"><a href="#documentation" aria-controls="documentation" role="tab" data-toggle="tab" class="i18n-documentation"></a></li>
+
+                    <!-- Properties -->
+                    <li role="presentation"><a href="#properties" aria-controls="properties" role="tab" data-toggle="tab" class="i18n-properties"></a></li>
+
+						<li role="presentation"><a href="#elements" aria-controls="elements" role="tab" data-toggle="tab" class="i18n-elements"></a></li>
+						<li role="presentation"><a href="#relationships" aria-controls="relationships" role="tab" data-toggle="tab" class="i18n-relationships"></a></li>
+                    <!-- Model, Query Tab -->
+				</ul>
+
+				<!-- Tab panes -->
+				<div class="tab-content">
+					<div role="tabpanel" class="tab-pane active" id="documentation">
+						<div class="convertlinks documentation" style="white-space:pre-wrap"></div>
+					</div>
+					<div role="tabpanel" class="tab-pane" id="properties">
+						<table class="table table-striped table-hover table-condensed">
+							<thead>
+								<tr>
+									<th class="i18n-key"></th>
+									<th class="i18n-value"></th>
+								</tr>
+							</thead>
+							<tbody>
+							</tbody>
+						</table>
+					</div>
+						<div role="tabpanel" class="tab-pane" id="elements">
+							<table class="table table-striped table-hover table-condensed">
+								<thead>
+									<tr>
+										<th class="i18n-name"></th>
+										<th class="i18n-type"></th>
+									</tr>
+								</thead>
+								<tbody>
+									        <tr>
+									           <td> <a href="../objects/id-7fde66df68d54ba09a2f495274ca2540.html" target="element"> Layer 1 </a> </td>
+									           <td> <a href="../objects/id-7fde66df68d54ba09a2f495274ca2540.html" target="element" class="i18n-elementtype-DiagramModelGroup"> </a> </td>
+									        </tr>
+
+													<tr>
+													    <td> <a href="../elements/id-599467e12a6f41848be7cf857088b6b2.html" target="element"> GCP </a> </td>
+													    <td> <a href="../elements/id-599467e12a6f41848be7cf857088b6b2.html" target="element" class="i18n-elementtype-Node">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-f5b9ce98f41a470e8732cece14ae7bca.html" target="element"> Github </a> </td>
+													    <td> <a href="../elements/id-f5b9ce98f41a470e8732cece14ae7bca.html" target="element" class="i18n-elementtype-Node">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-2ad33e2472954e268f9cd3ac9f062684.html" target="element"> LetsEncrypt </a> </td>
+													    <td> <a href="../elements/id-2ad33e2472954e268f9cd3ac9f062684.html" target="element" class="i18n-elementtype-Node">
+													    </a> </td>
+													</tr>
+
+											
+									        <tr>
+									           <td> <a href="../objects/id-711f8ee9eb5b4efb9be93b2a3162f26d.html" target="element"> Layer 2 </a> </td>
+									           <td> <a href="../objects/id-711f8ee9eb5b4efb9be93b2a3162f26d.html" target="element" class="i18n-elementtype-DiagramModelGroup"> </a> </td>
+									        </tr>
+
+													<tr>
+													    <td> <a href="../elements/id-599467e12a6f41848be7cf857088b6b2.html" target="element"> GCP </a> </td>
+													    <td> <a href="../elements/id-599467e12a6f41848be7cf857088b6b2.html" target="element" class="i18n-elementtype-Node">
+													    </a> </td>
+													</tr>
+
+															<tr>
+															    <td> <a href="../elements/id-c2fdfbeb9ae6408aa6ee2dc2ad728bef.html" target="element"> Google Kubernetes Engine (GKE) </a> </td>
+															    <td> <a href="../elements/id-c2fdfbeb9ae6408aa6ee2dc2ad728bef.html" target="element" class="i18n-elementtype-Node">
+															    </a> </td>
+															</tr>
+
+															<tr>
+															    <td> <a href="../elements/id-eee960ba964f4831a70895c3d967e96a.html" target="element"> Kubernetes Cluster Service </a> </td>
+															    <td> <a href="../elements/id-eee960ba964f4831a70895c3d967e96a.html" target="element" class="i18n-elementtype-TechnologyService">
+															    </a> </td>
+															</tr>
+
+															<tr>
+															    <td> <a href="../elements/id-61204f41a74f48e0be2ec96436d3f2d5.html" target="element"> Google Cloud Identity </a> </td>
+															    <td> <a href="../elements/id-61204f41a74f48e0be2ec96436d3f2d5.html" target="element" class="i18n-elementtype-Node">
+															    </a> </td>
+															</tr>
+
+															<tr>
+															    <td> <a href="../elements/id-e9b794e4943a4b0da08a30f8ec722904.html" target="element"> User Idenitity Service </a> </td>
+															    <td> <a href="../elements/id-e9b794e4943a4b0da08a30f8ec722904.html" target="element" class="i18n-elementtype-TechnologyService">
+															    </a> </td>
+															</tr>
+
+															<tr>
+															    <td> <a href="../elements/id-e0fa54febc1543979aa2f4fbb36325b2.html" target="element"> Cloud DNS </a> </td>
+															    <td> <a href="../elements/id-e0fa54febc1543979aa2f4fbb36325b2.html" target="element" class="i18n-elementtype-Node">
+															    </a> </td>
+															</tr>
+
+															<tr>
+															    <td> <a href="../elements/id-2d5a1bc249fd4356b3bd78accb855ce3.html" target="element"> DNS Service </a> </td>
+															    <td> <a href="../elements/id-2d5a1bc249fd4356b3bd78accb855ce3.html" target="element" class="i18n-elementtype-TechnologyService">
+															    </a> </td>
+															</tr>
+
+															<tr>
+															    <td> <a href="../elements/id-b7fe1a1a705d4b4697f65ae9e287a691.html" target="element"> User MFA Service </a> </td>
+															    <td> <a href="../elements/id-b7fe1a1a705d4b4697f65ae9e287a691.html" target="element" class="i18n-elementtype-TechnologyService">
+															    </a> </td>
+															</tr>
+
+															<tr>
+															    <td> <a href="../elements/id-c56253be106347628dd0a48a72fe5fe7.html" target="element"> Platform Policy Engine </a> </td>
+															    <td> <a href="../elements/id-c56253be106347628dd0a48a72fe5fe7.html" target="element" class="i18n-elementtype-Node">
+															    </a> </td>
+															</tr>
+
+															<tr>
+															    <td> <a href="../elements/id-7b16204c645f4b66b555d7494fb45b34.html" target="element"> Ornagization and Environment Control Service </a> </td>
+															    <td> <a href="../elements/id-7b16204c645f4b66b555d7494fb45b34.html" target="element" class="i18n-elementtype-TechnologyService">
+															    </a> </td>
+															</tr>
+
+															<tr>
+															    <td> <a href="../elements/id-ad6f8924b9b9466da7ae78a295f9aeeb.html" target="element"> VPC Networking </a> </td>
+															    <td> <a href="../elements/id-ad6f8924b9b9466da7ae78a295f9aeeb.html" target="element" class="i18n-elementtype-Node">
+															    </a> </td>
+															</tr>
+
+															<tr>
+															    <td> <a href="../elements/id-49e9dfd9e01641c7894c32d979cca531.html" target="element"> Persistent Disk </a> </td>
+															    <td> <a href="../elements/id-49e9dfd9e01641c7894c32d979cca531.html" target="element" class="i18n-elementtype-Node">
+															    </a> </td>
+															</tr>
+
+															<tr>
+															    <td> <a href="../elements/id-2b6406f4a21c41f791bb2dfae65c3ec0.html" target="element"> Load Balancer </a> </td>
+															    <td> <a href="../elements/id-2b6406f4a21c41f791bb2dfae65c3ec0.html" target="element" class="i18n-elementtype-Node">
+															    </a> </td>
+															</tr>
+
+															<tr>
+															    <td> <a href="../elements/id-f657396a2d5c41f295f89867c32ec113.html" target="element"> GCP Cloud Operations </a> </td>
+															    <td> <a href="../elements/id-f657396a2d5c41f295f89867c32ec113.html" target="element" class="i18n-elementtype-Node">
+															    </a> </td>
+															</tr>
+
+															<tr>
+															    <td> <a href="../elements/id-a83968c8d63444d1899995e618ed37d7.html" target="element"> Monitoring and Diagnostic Service </a> </td>
+															    <td> <a href="../elements/id-a83968c8d63444d1899995e618ed37d7.html" target="element" class="i18n-elementtype-TechnologyService">
+															    </a> </td>
+															</tr>
+
+															<tr>
+															    <td> <a href="../elements/id-93da7766b06f4476b63bc7ce8eeb7570.html" target="element"> Network Service </a> </td>
+															    <td> <a href="../elements/id-93da7766b06f4476b63bc7ce8eeb7570.html" target="element" class="i18n-elementtype-TechnologyService">
+															    </a> </td>
+															</tr>
+
+															<tr>
+															    <td> <a href="../elements/id-8d23cd4a672942a183b8242001c53004.html" target="element"> Storage Service </a> </td>
+															    <td> <a href="../elements/id-8d23cd4a672942a183b8242001c53004.html" target="element" class="i18n-elementtype-TechnologyService">
+															    </a> </td>
+															</tr>
+
+															<tr>
+															    <td> <a href="../elements/id-c3a01d6aef484cb7adef55ceda7bf17a.html" target="element"> Load Balancing Service </a> </td>
+															    <td> <a href="../elements/id-c3a01d6aef484cb7adef55ceda7bf17a.html" target="element" class="i18n-elementtype-TechnologyService">
+															    </a> </td>
+															</tr>
+
+													
+													<tr>
+													    <td> <a href="../elements/id-f5b9ce98f41a470e8732cece14ae7bca.html" target="element"> Github </a> </td>
+													    <td> <a href="../elements/id-f5b9ce98f41a470e8732cece14ae7bca.html" target="element" class="i18n-elementtype-Node">
+													    </a> </td>
+													</tr>
+
+															<tr>
+															    <td> <a href="../elements/id-7da0830eb3f647d881ca8202757365bd.html" target="element"> Git </a> </td>
+															    <td> <a href="../elements/id-7da0830eb3f647d881ca8202757365bd.html" target="element" class="i18n-elementtype-Node">
+															    </a> </td>
+															</tr>
+
+															<tr>
+															    <td> <a href="../elements/id-eca4fd1ba5c34470a0ab82cbbb52c8d7.html" target="element"> Code Repository Service </a> </td>
+															    <td> <a href="../elements/id-eca4fd1ba5c34470a0ab82cbbb52c8d7.html" target="element" class="i18n-elementtype-TechnologyService">
+															    </a> </td>
+															</tr>
+
+															<tr>
+															    <td> <a href="../elements/id-5a59c41795e2486782fa3d941123e661.html" target="element"> Project Management </a> </td>
+															    <td> <a href="../elements/id-5a59c41795e2486782fa3d941123e661.html" target="element" class="i18n-elementtype-Node">
+															    </a> </td>
+															</tr>
+
+															<tr>
+															    <td> <a href="../elements/id-35b43c6d027d4bf9837f889d8ee45138.html" target="element"> Ticketing Service </a> </td>
+															    <td> <a href="../elements/id-35b43c6d027d4bf9837f889d8ee45138.html" target="element" class="i18n-elementtype-TechnologyService">
+															    </a> </td>
+															</tr>
+
+															<tr>
+															    <td> <a href="../elements/id-44f2d79e47e746858e6ebfd656a1e728.html" target="element"> Release Service </a> </td>
+															    <td> <a href="../elements/id-44f2d79e47e746858e6ebfd656a1e728.html" target="element" class="i18n-elementtype-TechnologyService">
+															    </a> </td>
+															</tr>
+
+															<tr>
+															    <td> <a href="../elements/id-394fc2c325de4b4bb211324ab64a00ae.html" target="element"> Platform Policy Engine </a> </td>
+															    <td> <a href="../elements/id-394fc2c325de4b4bb211324ab64a00ae.html" target="element" class="i18n-elementtype-Node">
+															    </a> </td>
+															</tr>
+
+															<tr>
+															    <td> <a href="../elements/id-7b16204c645f4b66b555d7494fb45b34.html" target="element"> Ornagization and Environment Control Service </a> </td>
+															    <td> <a href="../elements/id-7b16204c645f4b66b555d7494fb45b34.html" target="element" class="i18n-elementtype-TechnologyService">
+															    </a> </td>
+															</tr>
+
+															<tr>
+															    <td> <a href="../elements/id-631a62f9f5f24f668b491b0fcd1f42e5.html" target="element"> Code Dependency Updating (Dependabot) </a> </td>
+															    <td> <a href="../elements/id-631a62f9f5f24f668b491b0fcd1f42e5.html" target="element" class="i18n-elementtype-TechnologyService">
+															    </a> </td>
+															</tr>
+
+													
+													<tr>
+													    <td> <a href="../elements/id-2ad33e2472954e268f9cd3ac9f062684.html" target="element"> LetsEncrypt </a> </td>
+													    <td> <a href="../elements/id-2ad33e2472954e268f9cd3ac9f062684.html" target="element" class="i18n-elementtype-Node">
+													    </a> </td>
+													</tr>
+
+															<tr>
+															    <td> <a href="../elements/id-475c962c94ed48adb323791f217ba2f2.html" target="element"> PKI </a> </td>
+															    <td> <a href="../elements/id-475c962c94ed48adb323791f217ba2f2.html" target="element" class="i18n-elementtype-Node">
+															    </a> </td>
+															</tr>
+
+															<tr>
+															    <td> <a href="../elements/id-d6b6207f1ddc4549beb308d9b9849d0c.html" target="element"> Automated certificate and renewal service </a> </td>
+															    <td> <a href="../elements/id-d6b6207f1ddc4549beb308d9b9849d0c.html" target="element" class="i18n-elementtype-TechnologyService">
+															    </a> </td>
+															</tr>
+
+													
+											
+									        <tr>
+									           <td> <a href="../objects/id-50548cda1a0e4f11a468a066285cfdc4.html" target="element"> Layer 3 </a> </td>
+									           <td> <a href="../objects/id-50548cda1a0e4f11a468a066285cfdc4.html" target="element" class="i18n-elementtype-DiagramModelGroup"> </a> </td>
+									        </tr>
+
+													<tr>
+													    <td> <a href="../elements/id-c2fdfbeb9ae6408aa6ee2dc2ad728bef.html" target="element"> Google Kubernetes Engine (GKE) </a> </td>
+													    <td> <a href="../elements/id-c2fdfbeb9ae6408aa6ee2dc2ad728bef.html" target="element" class="i18n-elementtype-Node">
+													    </a> </td>
+													</tr>
+
+													        <tr>
+													           <td> <a href="../objects/id-2bd6d1ea8a3e4e13906ffd2e37e1bb7e.html" target="element"> Control Plane </a> </td>
+													           <td> <a href="../objects/id-2bd6d1ea8a3e4e13906ffd2e37e1bb7e.html" target="element" class="i18n-elementtype-DiagramModelGroup"> </a> </td>
+													        </tr>
+
+																	<tr>
+																	    <td> <a href="../elements/id-c182a46d22d24285aadd264deab73601.html" target="element"> API Server </a> </td>
+																	    <td> <a href="../elements/id-c182a46d22d24285aadd264deab73601.html" target="element" class="i18n-elementtype-Node">
+																	    </a> </td>
+																	</tr>
+
+																	<tr>
+																	    <td> <a href="../elements/id-17f1bf0b7de640db81f05e78b92658d5.html" target="element"> Resource Controller </a> </td>
+																	    <td> <a href="../elements/id-17f1bf0b7de640db81f05e78b92658d5.html" target="element" class="i18n-elementtype-Node">
+																	    </a> </td>
+																	</tr>
+
+																	<tr>
+																	    <td> <a href="../elements/id-e934002804524a3b9f1e00b9f98305b9.html" target="element"> Scheduler </a> </td>
+																	    <td> <a href="../elements/id-e934002804524a3b9f1e00b9f98305b9.html" target="element" class="i18n-elementtype-Node">
+																	    </a> </td>
+																	</tr>
+
+																	<tr>
+																	    <td> <a href="../elements/id-d1e65c7a12934196b31cc3826e7b7874.html" target="element"> Storage </a> </td>
+																	    <td> <a href="../elements/id-d1e65c7a12934196b31cc3826e7b7874.html" target="element" class="i18n-elementtype-Node">
+																	    </a> </td>
+																	</tr>
+
+															
+													        <tr>
+													           <td> <a href="../objects/id-509163979ead4127954c2779ca442f0d.html" target="element"> Nodes </a> </td>
+													           <td> <a href="../objects/id-509163979ead4127954c2779ca442f0d.html" target="element" class="i18n-elementtype-DiagramModelGroup"> </a> </td>
+													        </tr>
+
+																	<tr>
+																	    <td> <a href="../elements/id-0c965e4beafd43a38a6a21585745c983.html" target="element"> Nodes 1 </a> </td>
+																	    <td> <a href="../elements/id-0c965e4beafd43a38a6a21585745c983.html" target="element" class="i18n-elementtype-Node">
+																	    </a> </td>
+																	</tr>
+
+																	<tr>
+																	    <td> <a href="../elements/id-76fcba1b89d142e497b215f44424d283.html" target="element"> Nodes 2 </a> </td>
+																	    <td> <a href="../elements/id-76fcba1b89d142e497b215f44424d283.html" target="element" class="i18n-elementtype-Node">
+																	    </a> </td>
+																	</tr>
+
+																	<tr>
+																	    <td> <a href="../elements/id-bfcbe44d39b74baf8d794884edd0da09.html" target="element"> Nodes 3 </a> </td>
+																	    <td> <a href="../elements/id-bfcbe44d39b74baf8d794884edd0da09.html" target="element" class="i18n-elementtype-Node">
+																	    </a> </td>
+																	</tr>
+
+															
+													
+													<tr>
+													    <td> <a href="../elements/id-eee960ba964f4831a70895c3d967e96a.html" target="element"> Kubernetes Cluster Service </a> </td>
+													    <td> <a href="../elements/id-eee960ba964f4831a70895c3d967e96a.html" target="element" class="i18n-elementtype-TechnologyService">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-a83968c8d63444d1899995e618ed37d7.html" target="element"> Monitoring and Diagnostic Service </a> </td>
+													    <td> <a href="../elements/id-a83968c8d63444d1899995e618ed37d7.html" target="element" class="i18n-elementtype-TechnologyService">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-93da7766b06f4476b63bc7ce8eeb7570.html" target="element"> Network Service </a> </td>
+													    <td> <a href="../elements/id-93da7766b06f4476b63bc7ce8eeb7570.html" target="element" class="i18n-elementtype-TechnologyService">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-8d23cd4a672942a183b8242001c53004.html" target="element"> Storage Service </a> </td>
+													    <td> <a href="../elements/id-8d23cd4a672942a183b8242001c53004.html" target="element" class="i18n-elementtype-TechnologyService">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-c3a01d6aef484cb7adef55ceda7bf17a.html" target="element"> Load Balancing Service </a> </td>
+													    <td> <a href="../elements/id-c3a01d6aef484cb7adef55ceda7bf17a.html" target="element" class="i18n-elementtype-TechnologyService">
+													    </a> </td>
+													</tr>
+
+											
+									        <tr>
+									           <td> <a href="../objects/id-b5aa61ab50e24bf3bc57a6fd13345fb0.html" target="element"> Layer 4 </a> </td>
+									           <td> <a href="../objects/id-b5aa61ab50e24bf3bc57a6fd13345fb0.html" target="element" class="i18n-elementtype-DiagramModelGroup"> </a> </td>
+									        </tr>
+
+											        <tr>
+											           <td> <a href="../objects/id-c05ab08ae159457aba40424f5df68787.html" target="element"> Nodes </a> </td>
+											           <td> <a href="../objects/id-c05ab08ae159457aba40424f5df68787.html" target="element" class="i18n-elementtype-DiagramModelGroup"> </a> </td>
+											        </tr>
+
+															<tr>
+															    <td> <a href="../elements/id-0c965e4beafd43a38a6a21585745c983.html" target="element"> Nodes 1 </a> </td>
+															    <td> <a href="../elements/id-0c965e4beafd43a38a6a21585745c983.html" target="element" class="i18n-elementtype-Node">
+															    </a> </td>
+															</tr>
+
+															<tr>
+															    <td> <a href="../elements/id-76fcba1b89d142e497b215f44424d283.html" target="element"> Nodes 2 </a> </td>
+															    <td> <a href="../elements/id-76fcba1b89d142e497b215f44424d283.html" target="element" class="i18n-elementtype-Node">
+															    </a> </td>
+															</tr>
+
+															<tr>
+															    <td> <a href="../elements/id-bfcbe44d39b74baf8d794884edd0da09.html" target="element"> Nodes 3 </a> </td>
+															    <td> <a href="../elements/id-bfcbe44d39b74baf8d794884edd0da09.html" target="element" class="i18n-elementtype-Node">
+															    </a> </td>
+															</tr>
+
+													
+											        <tr>
+											           <td> <a href="../objects/id-d9a2f5372d4b44f9911e9a5090bed171.html" target="element"> Containers </a> </td>
+											           <td> <a href="../objects/id-d9a2f5372d4b44f9911e9a5090bed171.html" target="element" class="i18n-elementtype-DiagramModelGroup"> </a> </td>
+											        </tr>
+
+															<tr>
+															    <td> <a href="../elements/id-ad81bf5642d0403292a526678ec096f6.html" target="element"> API </a> </td>
+															    <td> <a href="../elements/id-ad81bf5642d0403292a526678ec096f6.html" target="element" class="i18n-elementtype-Node">
+															    </a> </td>
+															</tr>
+
+															<tr>
+															    <td> <a href="../elements/id-c7748fdcdf1e43fe9418c0ebe75e625d.html" target="element"> certmanager </a> </td>
+															    <td> <a href="../elements/id-c7748fdcdf1e43fe9418c0ebe75e625d.html" target="element" class="i18n-elementtype-Node">
+															    </a> </td>
+															</tr>
+
+															<tr>
+															    <td> <a href="../elements/id-43569d92b0544b24abe11b7cc295c59c.html" target="element"> flux </a> </td>
+															    <td> <a href="../elements/id-43569d92b0544b24abe11b7cc295c59c.html" target="element" class="i18n-elementtype-Node">
+															    </a> </td>
+															</tr>
+
+															<tr>
+															    <td> <a href="../elements/id-dfa676e9fc9f4ffe9043b0459996bce4.html" target="element"> Istio </a> </td>
+															    <td> <a href="../elements/id-dfa676e9fc9f4ffe9043b0459996bce4.html" target="element" class="i18n-elementtype-Node">
+															    </a> </td>
+															</tr>
+
+															<tr>
+															    <td> <a href="../elements/id-5b28e0e5958d426fa93598f01280dcc8.html" target="element"> UI </a> </td>
+															    <td> <a href="../elements/id-5b28e0e5958d426fa93598f01280dcc8.html" target="element" class="i18n-elementtype-Node">
+															    </a> </td>
+															</tr>
+
+													
+											
+									        <tr>
+									           <td> <a href="../objects/id-cb6e486dfc4f403eb6f66cc095d0b7c4.html" target="element"> Containers </a> </td>
+									           <td> <a href="../objects/id-cb6e486dfc4f403eb6f66cc095d0b7c4.html" target="element" class="i18n-elementtype-DiagramModelGroup"> </a> </td>
+									        </tr>
+
+													<tr>
+													    <td> <a href="../elements/id-ad81bf5642d0403292a526678ec096f6.html" target="element"> API </a> </td>
+													    <td> <a href="../elements/id-ad81bf5642d0403292a526678ec096f6.html" target="element" class="i18n-elementtype-Node">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-c7748fdcdf1e43fe9418c0ebe75e625d.html" target="element"> certmanager </a> </td>
+													    <td> <a href="../elements/id-c7748fdcdf1e43fe9418c0ebe75e625d.html" target="element" class="i18n-elementtype-Node">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-43569d92b0544b24abe11b7cc295c59c.html" target="element"> flux </a> </td>
+													    <td> <a href="../elements/id-43569d92b0544b24abe11b7cc295c59c.html" target="element" class="i18n-elementtype-Node">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-dfa676e9fc9f4ffe9043b0459996bce4.html" target="element"> Istio </a> </td>
+													    <td> <a href="../elements/id-dfa676e9fc9f4ffe9043b0459996bce4.html" target="element" class="i18n-elementtype-Node">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-5b28e0e5958d426fa93598f01280dcc8.html" target="element"> UI </a> </td>
+													    <td> <a href="../elements/id-5b28e0e5958d426fa93598f01280dcc8.html" target="element" class="i18n-elementtype-Node">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-fd2c53114e294c6a8a302388c8a0c795.html" target="element"> SafeInputs SSL Certificate Management Service </a> </td>
+													    <td> <a href="../elements/id-fd2c53114e294c6a8a302388c8a0c795.html" target="element" class="i18n-elementtype-TechnologyService">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-db7ef21ff0f74a46ae9cbc09affeadf0.html" target="element"> SafeInputs API Service </a> </td>
+													    <td> <a href="../elements/id-db7ef21ff0f74a46ae9cbc09affeadf0.html" target="element" class="i18n-elementtype-TechnologyService">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-284439502d684fcb9adda7938dfed57e.html" target="element"> SafeInputs Deployment Coordinator Service </a> </td>
+													    <td> <a href="../elements/id-284439502d684fcb9adda7938dfed57e.html" target="element" class="i18n-elementtype-TechnologyService">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-2c3885a7a78843e09e3ef2b41fe77d65.html" target="element"> SafeInputs Service Mesh Service </a> </td>
+													    <td> <a href="../elements/id-2c3885a7a78843e09e3ef2b41fe77d65.html" target="element" class="i18n-elementtype-TechnologyService">
+													    </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-70a08ac9345b4f08a67d72bdb702be49.html" target="element"> SafeInputs User(Web) Interface </a> </td>
+													    <td> <a href="../elements/id-70a08ac9345b4f08a67d72bdb702be49.html" target="element" class="i18n-elementtype-TechnologyService">
+													    </a> </td>
+													</tr>
+
+											
+
+								</tbody>
+							</table>
+						</div>
+						<div role="tabpanel" class="tab-pane" id="relationships">
+							<table class="table table-striped table-hover table-condensed">
+								<thead>
+									<tr>
+										<th class="i18n-name"></th>
+										<th class="i18n-type"></th>
+										<th class="i18n-source"></th>
+										<th class="i18n-target"></th>
+									</tr>
+								</thead>
+								<tbody>
+											<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelGroup -->
+																			<tr>
+																				<td> <a href="../elements/id-378dac27cecb417183f52ff0c0d8d09c.html" target="element">  </a> </td>
+																				<td> <a href="../elements/id-378dac27cecb417183f52ff0c0d8d09c.html" target="element" class="i18n-elementtype-FlowRelationship">
+																				</a> </td>
+																				<td> <a href="../elements/id-599467e12a6f41848be7cf857088b6b2.html" target="element"> GCP </a> </td>
+																				<td> <a href="../elements/id-f5b9ce98f41a470e8732cece14ae7bca.html" target="element"> Github </a> </td>
+																			</tr>
+																			<tr>
+																				<td> <a href="../elements/id-c93c8a41ccf54619a0b6764b9eb5353c.html" target="element">  </a> </td>
+																				<td> <a href="../elements/id-c93c8a41ccf54619a0b6764b9eb5353c.html" target="element" class="i18n-elementtype-FlowRelationship">
+																				</a> </td>
+																				<td> <a href="../elements/id-599467e12a6f41848be7cf857088b6b2.html" target="element"> GCP </a> </td>
+																				<td> <a href="../elements/id-2ad33e2472954e268f9cd3ac9f062684.html" target="element"> LetsEncrypt </a> </td>
+																			</tr>
+
+											
+											<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelGroup -->
+																			<tr>
+																				<td> <a href="../elements/id-30949af40d144e25a567bcf486b0012d.html" target="element">  </a> </td>
+																				<td> <a href="../elements/id-30949af40d144e25a567bcf486b0012d.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																				</a> </td>
+																				<td> <a href="../elements/id-599467e12a6f41848be7cf857088b6b2.html" target="element"> GCP </a> </td>
+																				<td> <a href="../elements/id-c2fdfbeb9ae6408aa6ee2dc2ad728bef.html" target="element"> Google Kubernetes Engine (GKE) </a> </td>
+																			</tr>
+																			<tr>
+																				<td> <a href="../elements/id-f53070353fd24659a64284969a0722d1.html" target="element">  </a> </td>
+																				<td> <a href="../elements/id-f53070353fd24659a64284969a0722d1.html" target="element" class="i18n-elementtype-AssignmentRelationship">
+																				</a> </td>
+																				<td> <a href="../elements/id-599467e12a6f41848be7cf857088b6b2.html" target="element"> GCP </a> </td>
+																				<td> <a href="../elements/id-eee960ba964f4831a70895c3d967e96a.html" target="element"> Kubernetes Cluster Service </a> </td>
+																			</tr>
+																			<tr>
+																				<td> <a href="../elements/id-4f2997db4b2a441bb1dff897f6110c48.html" target="element">  </a> </td>
+																				<td> <a href="../elements/id-4f2997db4b2a441bb1dff897f6110c48.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																				</a> </td>
+																				<td> <a href="../elements/id-599467e12a6f41848be7cf857088b6b2.html" target="element"> GCP </a> </td>
+																				<td> <a href="../elements/id-61204f41a74f48e0be2ec96436d3f2d5.html" target="element"> Google Cloud Identity </a> </td>
+																			</tr>
+																			<tr>
+																				<td> <a href="../elements/id-b2bc06a8b2064b189f3a245ad8c1acb7.html" target="element">  </a> </td>
+																				<td> <a href="../elements/id-b2bc06a8b2064b189f3a245ad8c1acb7.html" target="element" class="i18n-elementtype-AssignmentRelationship">
+																				</a> </td>
+																				<td> <a href="../elements/id-599467e12a6f41848be7cf857088b6b2.html" target="element"> GCP </a> </td>
+																				<td> <a href="../elements/id-e9b794e4943a4b0da08a30f8ec722904.html" target="element"> User Idenitity Service </a> </td>
+																			</tr>
+																			<tr>
+																				<td> <a href="../elements/id-765b208aa9354f7d8fe391bd167ed968.html" target="element">  </a> </td>
+																				<td> <a href="../elements/id-765b208aa9354f7d8fe391bd167ed968.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																				</a> </td>
+																				<td> <a href="../elements/id-599467e12a6f41848be7cf857088b6b2.html" target="element"> GCP </a> </td>
+																				<td> <a href="../elements/id-e0fa54febc1543979aa2f4fbb36325b2.html" target="element"> Cloud DNS </a> </td>
+																			</tr>
+																			<tr>
+																				<td> <a href="../elements/id-a223efd37df946c8a875dc8f5beb3abf.html" target="element">  </a> </td>
+																				<td> <a href="../elements/id-a223efd37df946c8a875dc8f5beb3abf.html" target="element" class="i18n-elementtype-AssignmentRelationship">
+																				</a> </td>
+																				<td> <a href="../elements/id-599467e12a6f41848be7cf857088b6b2.html" target="element"> GCP </a> </td>
+																				<td> <a href="../elements/id-2d5a1bc249fd4356b3bd78accb855ce3.html" target="element"> DNS Service </a> </td>
+																			</tr>
+																			<tr>
+																				<td> <a href="../elements/id-ec057396e75a4c108969547db6d28521.html" target="element">  </a> </td>
+																				<td> <a href="../elements/id-ec057396e75a4c108969547db6d28521.html" target="element" class="i18n-elementtype-AssignmentRelationship">
+																				</a> </td>
+																				<td> <a href="../elements/id-599467e12a6f41848be7cf857088b6b2.html" target="element"> GCP </a> </td>
+																				<td> <a href="../elements/id-b7fe1a1a705d4b4697f65ae9e287a691.html" target="element"> User MFA Service </a> </td>
+																			</tr>
+																			<tr>
+																				<td> <a href="../elements/id-3e2f8d92df0b4970ac31ba3fa2309a7d.html" target="element">  </a> </td>
+																				<td> <a href="../elements/id-3e2f8d92df0b4970ac31ba3fa2309a7d.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																				</a> </td>
+																				<td> <a href="../elements/id-599467e12a6f41848be7cf857088b6b2.html" target="element"> GCP </a> </td>
+																				<td> <a href="../elements/id-c56253be106347628dd0a48a72fe5fe7.html" target="element"> Platform Policy Engine </a> </td>
+																			</tr>
+																			<tr>
+																				<td> <a href="../elements/id-a485ad5ac4d34003888796ce154f10b1.html" target="element">  </a> </td>
+																				<td> <a href="../elements/id-a485ad5ac4d34003888796ce154f10b1.html" target="element" class="i18n-elementtype-RealizationRelationship">
+																				</a> </td>
+																				<td> <a href="../elements/id-599467e12a6f41848be7cf857088b6b2.html" target="element"> GCP </a> </td>
+																				<td> <a href="../elements/id-7b16204c645f4b66b555d7494fb45b34.html" target="element"> Ornagization and Environment Control Service </a> </td>
+																			</tr>
+																			<tr>
+																				<td> <a href="../elements/id-f435873a333e46a9b21f57138f7fba1d.html" target="element">  </a> </td>
+																				<td> <a href="../elements/id-f435873a333e46a9b21f57138f7fba1d.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																				</a> </td>
+																				<td> <a href="../elements/id-599467e12a6f41848be7cf857088b6b2.html" target="element"> GCP </a> </td>
+																				<td> <a href="../elements/id-ad6f8924b9b9466da7ae78a295f9aeeb.html" target="element"> VPC Networking </a> </td>
+																			</tr>
+																			<tr>
+																				<td> <a href="../elements/id-f7e4dc059cc84494a712e040ed290c74.html" target="element">  </a> </td>
+																				<td> <a href="../elements/id-f7e4dc059cc84494a712e040ed290c74.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																				</a> </td>
+																				<td> <a href="../elements/id-599467e12a6f41848be7cf857088b6b2.html" target="element"> GCP </a> </td>
+																				<td> <a href="../elements/id-49e9dfd9e01641c7894c32d979cca531.html" target="element"> Persistent Disk </a> </td>
+																			</tr>
+																			<tr>
+																				<td> <a href="../elements/id-7f412003ec9245b48bb1689ad04d3809.html" target="element">  </a> </td>
+																				<td> <a href="../elements/id-7f412003ec9245b48bb1689ad04d3809.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																				</a> </td>
+																				<td> <a href="../elements/id-599467e12a6f41848be7cf857088b6b2.html" target="element"> GCP </a> </td>
+																				<td> <a href="../elements/id-2b6406f4a21c41f791bb2dfae65c3ec0.html" target="element"> Load Balancer </a> </td>
+																			</tr>
+																			<tr>
+																				<td> <a href="../elements/id-bac2bb1d40ac43a5b6bc5264ad8774fc.html" target="element">  </a> </td>
+																				<td> <a href="../elements/id-bac2bb1d40ac43a5b6bc5264ad8774fc.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																				</a> </td>
+																				<td> <a href="../elements/id-599467e12a6f41848be7cf857088b6b2.html" target="element"> GCP </a> </td>
+																				<td> <a href="../elements/id-f657396a2d5c41f295f89867c32ec113.html" target="element"> GCP Cloud Operations </a> </td>
+																			</tr>
+																			<tr>
+																				<td> <a href="../elements/id-149b7d65daf9463e9cdda7794c1741e6.html" target="element">  </a> </td>
+																				<td> <a href="../elements/id-149b7d65daf9463e9cdda7794c1741e6.html" target="element" class="i18n-elementtype-RealizationRelationship">
+																				</a> </td>
+																				<td> <a href="../elements/id-599467e12a6f41848be7cf857088b6b2.html" target="element"> GCP </a> </td>
+																				<td> <a href="../elements/id-a83968c8d63444d1899995e618ed37d7.html" target="element"> Monitoring and Diagnostic Service </a> </td>
+																			</tr>
+																			<tr>
+																				<td> <a href="../elements/id-816f3efb6de44bb796fa89d201fa3d9a.html" target="element">  </a> </td>
+																				<td> <a href="../elements/id-816f3efb6de44bb796fa89d201fa3d9a.html" target="element" class="i18n-elementtype-RealizationRelationship">
+																				</a> </td>
+																				<td> <a href="../elements/id-599467e12a6f41848be7cf857088b6b2.html" target="element"> GCP </a> </td>
+																				<td> <a href="../elements/id-93da7766b06f4476b63bc7ce8eeb7570.html" target="element"> Network Service </a> </td>
+																			</tr>
+																			<tr>
+																				<td> <a href="../elements/id-358bc7a3f9634e6f9b4de09fe4b5e7f3.html" target="element">  </a> </td>
+																				<td> <a href="../elements/id-358bc7a3f9634e6f9b4de09fe4b5e7f3.html" target="element" class="i18n-elementtype-RealizationRelationship">
+																				</a> </td>
+																				<td> <a href="../elements/id-599467e12a6f41848be7cf857088b6b2.html" target="element"> GCP </a> </td>
+																				<td> <a href="../elements/id-8d23cd4a672942a183b8242001c53004.html" target="element"> Storage Service </a> </td>
+																			</tr>
+																			<tr>
+																				<td> <a href="../elements/id-fb8c18d75dd84a1f91f98b11ffa1cbf0.html" target="element">  </a> </td>
+																				<td> <a href="../elements/id-fb8c18d75dd84a1f91f98b11ffa1cbf0.html" target="element" class="i18n-elementtype-RealizationRelationship">
+																				</a> </td>
+																				<td> <a href="../elements/id-599467e12a6f41848be7cf857088b6b2.html" target="element"> GCP </a> </td>
+																				<td> <a href="../elements/id-c3a01d6aef484cb7adef55ceda7bf17a.html" target="element"> Load Balancing Service </a> </td>
+																			</tr>
+
+																					<tr>
+																						<td> <a href="../elements/id-0ccc2541673f47fb925f5b0cf0a3d4c6.html" target="element">  </a> </td>
+																						<td> <a href="../elements/id-0ccc2541673f47fb925f5b0cf0a3d4c6.html" target="element" class="i18n-elementtype-AssignmentRelationship">
+																						</a> </td>
+																						<td> <a href="../elements/id-c2fdfbeb9ae6408aa6ee2dc2ad728bef.html" target="element"> Google Kubernetes Engine (GKE) </a> </td>
+																						<td> <a href="../elements/id-eee960ba964f4831a70895c3d967e96a.html" target="element"> Kubernetes Cluster Service </a> </td>
+																					</tr>
+
+																					<tr>
+																						<td> <a href="../elements/id-f8e71957c72f4bf6bce815974872db10.html" target="element">  </a> </td>
+																						<td> <a href="../elements/id-f8e71957c72f4bf6bce815974872db10.html" target="element" class="i18n-elementtype-AssignmentRelationship">
+																						</a> </td>
+																						<td> <a href="../elements/id-61204f41a74f48e0be2ec96436d3f2d5.html" target="element"> Google Cloud Identity </a> </td>
+																						<td> <a href="../elements/id-e9b794e4943a4b0da08a30f8ec722904.html" target="element"> User Idenitity Service </a> </td>
+																					</tr>
+																					<tr>
+																						<td> <a href="../elements/id-a128c54ecf794a84acbed10a581366df.html" target="element">  </a> </td>
+																						<td> <a href="../elements/id-a128c54ecf794a84acbed10a581366df.html" target="element" class="i18n-elementtype-AssignmentRelationship">
+																						</a> </td>
+																						<td> <a href="../elements/id-61204f41a74f48e0be2ec96436d3f2d5.html" target="element"> Google Cloud Identity </a> </td>
+																						<td> <a href="../elements/id-b7fe1a1a705d4b4697f65ae9e287a691.html" target="element"> User MFA Service </a> </td>
+																					</tr>
+
+																					<tr>
+																						<td> <a href="../elements/id-4be7d84e8493441f802d4311e840e04a.html" target="element">  </a> </td>
+																						<td> <a href="../elements/id-4be7d84e8493441f802d4311e840e04a.html" target="element" class="i18n-elementtype-AssignmentRelationship">
+																						</a> </td>
+																						<td> <a href="../elements/id-e0fa54febc1543979aa2f4fbb36325b2.html" target="element"> Cloud DNS </a> </td>
+																						<td> <a href="../elements/id-2d5a1bc249fd4356b3bd78accb855ce3.html" target="element"> DNS Service </a> </td>
+																					</tr>
+
+																					<tr>
+																						<td> <a href="../elements/id-e0320180576447c49c47dec2f69b7ef1.html" target="element">  </a> </td>
+																						<td> <a href="../elements/id-e0320180576447c49c47dec2f69b7ef1.html" target="element" class="i18n-elementtype-AssignmentRelationship">
+																						</a> </td>
+																						<td> <a href="../elements/id-c56253be106347628dd0a48a72fe5fe7.html" target="element"> Platform Policy Engine </a> </td>
+																						<td> <a href="../elements/id-7b16204c645f4b66b555d7494fb45b34.html" target="element"> Ornagization and Environment Control Service </a> </td>
+																					</tr>
+
+																					<tr>
+																						<td> <a href="../elements/id-0317e1ed88944b9ea3d3b21bbd9285eb.html" target="element">  </a> </td>
+																						<td> <a href="../elements/id-0317e1ed88944b9ea3d3b21bbd9285eb.html" target="element" class="i18n-elementtype-AssignmentRelationship">
+																						</a> </td>
+																						<td> <a href="../elements/id-ad6f8924b9b9466da7ae78a295f9aeeb.html" target="element"> VPC Networking </a> </td>
+																						<td> <a href="../elements/id-93da7766b06f4476b63bc7ce8eeb7570.html" target="element"> Network Service </a> </td>
+																					</tr>
+
+																					<tr>
+																						<td> <a href="../elements/id-0c53f65b1e61432dadadcc5fe632fe27.html" target="element">  </a> </td>
+																						<td> <a href="../elements/id-0c53f65b1e61432dadadcc5fe632fe27.html" target="element" class="i18n-elementtype-AssignmentRelationship">
+																						</a> </td>
+																						<td> <a href="../elements/id-49e9dfd9e01641c7894c32d979cca531.html" target="element"> Persistent Disk </a> </td>
+																						<td> <a href="../elements/id-8d23cd4a672942a183b8242001c53004.html" target="element"> Storage Service </a> </td>
+																					</tr>
+
+																					<tr>
+																						<td> <a href="../elements/id-b31a4ca58dd647e5a3b291f91b459b68.html" target="element">  </a> </td>
+																						<td> <a href="../elements/id-b31a4ca58dd647e5a3b291f91b459b68.html" target="element" class="i18n-elementtype-AssignmentRelationship">
+																						</a> </td>
+																						<td> <a href="../elements/id-2b6406f4a21c41f791bb2dfae65c3ec0.html" target="element"> Load Balancer </a> </td>
+																						<td> <a href="../elements/id-c3a01d6aef484cb7adef55ceda7bf17a.html" target="element"> Load Balancing Service </a> </td>
+																					</tr>
+
+																					<tr>
+																						<td> <a href="../elements/id-610df48638494feb8c9d3d4057c74226.html" target="element">  </a> </td>
+																						<td> <a href="../elements/id-610df48638494feb8c9d3d4057c74226.html" target="element" class="i18n-elementtype-AssignmentRelationship">
+																						</a> </td>
+																						<td> <a href="../elements/id-f657396a2d5c41f295f89867c32ec113.html" target="element"> GCP Cloud Operations </a> </td>
+																						<td> <a href="../elements/id-a83968c8d63444d1899995e618ed37d7.html" target="element"> Monitoring and Diagnostic Service </a> </td>
+																					</tr>
+
+													
+																			<tr>
+																				<td> <a href="../elements/id-f85a0815d04441c2bd2e6c9a1f410d3a.html" target="element">  </a> </td>
+																				<td> <a href="../elements/id-f85a0815d04441c2bd2e6c9a1f410d3a.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																				</a> </td>
+																				<td> <a href="../elements/id-f5b9ce98f41a470e8732cece14ae7bca.html" target="element"> Github </a> </td>
+																				<td> <a href="../elements/id-7da0830eb3f647d881ca8202757365bd.html" target="element"> Git </a> </td>
+																			</tr>
+																			<tr>
+																				<td> <a href="../elements/id-f459611237984eb4872f99c33a42e460.html" target="element">  </a> </td>
+																				<td> <a href="../elements/id-f459611237984eb4872f99c33a42e460.html" target="element" class="i18n-elementtype-AssignmentRelationship">
+																				</a> </td>
+																				<td> <a href="../elements/id-f5b9ce98f41a470e8732cece14ae7bca.html" target="element"> Github </a> </td>
+																				<td> <a href="../elements/id-eca4fd1ba5c34470a0ab82cbbb52c8d7.html" target="element"> Code Repository Service </a> </td>
+																			</tr>
+																			<tr>
+																				<td> <a href="../elements/id-30eb4ec7f11a4ea394470cb62310f061.html" target="element">  </a> </td>
+																				<td> <a href="../elements/id-30eb4ec7f11a4ea394470cb62310f061.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																				</a> </td>
+																				<td> <a href="../elements/id-f5b9ce98f41a470e8732cece14ae7bca.html" target="element"> Github </a> </td>
+																				<td> <a href="../elements/id-5a59c41795e2486782fa3d941123e661.html" target="element"> Project Management </a> </td>
+																			</tr>
+																			<tr>
+																				<td> <a href="../elements/id-b37944b1d115486fbbf807e8be79426b.html" target="element">  </a> </td>
+																				<td> <a href="../elements/id-b37944b1d115486fbbf807e8be79426b.html" target="element" class="i18n-elementtype-AssignmentRelationship">
+																				</a> </td>
+																				<td> <a href="../elements/id-f5b9ce98f41a470e8732cece14ae7bca.html" target="element"> Github </a> </td>
+																				<td> <a href="../elements/id-35b43c6d027d4bf9837f889d8ee45138.html" target="element"> Ticketing Service </a> </td>
+																			</tr>
+																			<tr>
+																				<td> <a href="../elements/id-13e4af79aefc4e5499463a1d064d87fa.html" target="element">  </a> </td>
+																				<td> <a href="../elements/id-13e4af79aefc4e5499463a1d064d87fa.html" target="element" class="i18n-elementtype-AssignmentRelationship">
+																				</a> </td>
+																				<td> <a href="../elements/id-f5b9ce98f41a470e8732cece14ae7bca.html" target="element"> Github </a> </td>
+																				<td> <a href="../elements/id-44f2d79e47e746858e6ebfd656a1e728.html" target="element"> Release Service </a> </td>
+																			</tr>
+																			<tr>
+																				<td> <a href="../elements/id-c55ee850bf7c4552b182f6ceb5bde90c.html" target="element">  </a> </td>
+																				<td> <a href="../elements/id-c55ee850bf7c4552b182f6ceb5bde90c.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																				</a> </td>
+																				<td> <a href="../elements/id-f5b9ce98f41a470e8732cece14ae7bca.html" target="element"> Github </a> </td>
+																				<td> <a href="../elements/id-394fc2c325de4b4bb211324ab64a00ae.html" target="element"> Platform Policy Engine </a> </td>
+																			</tr>
+																			<tr>
+																				<td> <a href="../elements/id-4b4fc31124bc4aca957b33d7a789a92a.html" target="element">  </a> </td>
+																				<td> <a href="../elements/id-4b4fc31124bc4aca957b33d7a789a92a.html" target="element" class="i18n-elementtype-RealizationRelationship">
+																				</a> </td>
+																				<td> <a href="../elements/id-f5b9ce98f41a470e8732cece14ae7bca.html" target="element"> Github </a> </td>
+																				<td> <a href="../elements/id-7b16204c645f4b66b555d7494fb45b34.html" target="element"> Ornagization and Environment Control Service </a> </td>
+																			</tr>
+																			<tr>
+																				<td> <a href="../elements/id-e802d12a78484d9180522d26b454bcae.html" target="element">  </a> </td>
+																				<td> <a href="../elements/id-e802d12a78484d9180522d26b454bcae.html" target="element" class="i18n-elementtype-AssignmentRelationship">
+																				</a> </td>
+																				<td> <a href="../elements/id-f5b9ce98f41a470e8732cece14ae7bca.html" target="element"> Github </a> </td>
+																				<td> <a href="../elements/id-631a62f9f5f24f668b491b0fcd1f42e5.html" target="element"> Code Dependency Updating (Dependabot) </a> </td>
+																			</tr>
+
+																					<tr>
+																						<td> <a href="../elements/id-81ddcdbe36ff47c49baf3a252ed46515.html" target="element">  </a> </td>
+																						<td> <a href="../elements/id-81ddcdbe36ff47c49baf3a252ed46515.html" target="element" class="i18n-elementtype-AssignmentRelationship">
+																						</a> </td>
+																						<td> <a href="../elements/id-7da0830eb3f647d881ca8202757365bd.html" target="element"> Git </a> </td>
+																						<td> <a href="../elements/id-eca4fd1ba5c34470a0ab82cbbb52c8d7.html" target="element"> Code Repository Service </a> </td>
+																					</tr>
+																					<tr>
+																						<td> <a href="../elements/id-c64549b65e024123a19055f3da5e148e.html" target="element">  </a> </td>
+																						<td> <a href="../elements/id-c64549b65e024123a19055f3da5e148e.html" target="element" class="i18n-elementtype-AssignmentRelationship">
+																						</a> </td>
+																						<td> <a href="../elements/id-7da0830eb3f647d881ca8202757365bd.html" target="element"> Git </a> </td>
+																						<td> <a href="../elements/id-631a62f9f5f24f668b491b0fcd1f42e5.html" target="element"> Code Dependency Updating (Dependabot) </a> </td>
+																					</tr>
+
+																					<tr>
+																						<td> <a href="../elements/id-98d48c3cbe65499ab36ad921767ec6d1.html" target="element">  </a> </td>
+																						<td> <a href="../elements/id-98d48c3cbe65499ab36ad921767ec6d1.html" target="element" class="i18n-elementtype-AssignmentRelationship">
+																						</a> </td>
+																						<td> <a href="../elements/id-5a59c41795e2486782fa3d941123e661.html" target="element"> Project Management </a> </td>
+																						<td> <a href="../elements/id-35b43c6d027d4bf9837f889d8ee45138.html" target="element"> Ticketing Service </a> </td>
+																					</tr>
+																					<tr>
+																						<td> <a href="../elements/id-d18b3294ff7a4acc93df0945e2c60ad8.html" target="element">  </a> </td>
+																						<td> <a href="../elements/id-d18b3294ff7a4acc93df0945e2c60ad8.html" target="element" class="i18n-elementtype-AssignmentRelationship">
+																						</a> </td>
+																						<td> <a href="../elements/id-5a59c41795e2486782fa3d941123e661.html" target="element"> Project Management </a> </td>
+																						<td> <a href="../elements/id-44f2d79e47e746858e6ebfd656a1e728.html" target="element"> Release Service </a> </td>
+																					</tr>
+
+																					<tr>
+																						<td> <a href="../elements/id-dca8222cc30848e29784ad701fd884b4.html" target="element">  </a> </td>
+																						<td> <a href="../elements/id-dca8222cc30848e29784ad701fd884b4.html" target="element" class="i18n-elementtype-AssignmentRelationship">
+																						</a> </td>
+																						<td> <a href="../elements/id-394fc2c325de4b4bb211324ab64a00ae.html" target="element"> Platform Policy Engine </a> </td>
+																						<td> <a href="../elements/id-7b16204c645f4b66b555d7494fb45b34.html" target="element"> Ornagization and Environment Control Service </a> </td>
+																					</tr>
+
+													
+																			<tr>
+																				<td> <a href="../elements/id-cd0aaaad33f64095abefb3dde1305d18.html" target="element">  </a> </td>
+																				<td> <a href="../elements/id-cd0aaaad33f64095abefb3dde1305d18.html" target="element" class="i18n-elementtype-CompositionRelationship">
+																				</a> </td>
+																				<td> <a href="../elements/id-2ad33e2472954e268f9cd3ac9f062684.html" target="element"> LetsEncrypt </a> </td>
+																				<td> <a href="../elements/id-475c962c94ed48adb323791f217ba2f2.html" target="element"> PKI </a> </td>
+																			</tr>
+																			<tr>
+																				<td> <a href="../elements/id-2617d4d021e741ebb7753a349f72536c.html" target="element">  </a> </td>
+																				<td> <a href="../elements/id-2617d4d021e741ebb7753a349f72536c.html" target="element" class="i18n-elementtype-AssignmentRelationship">
+																				</a> </td>
+																				<td> <a href="../elements/id-2ad33e2472954e268f9cd3ac9f062684.html" target="element"> LetsEncrypt </a> </td>
+																				<td> <a href="../elements/id-d6b6207f1ddc4549beb308d9b9849d0c.html" target="element"> Automated certificate and renewal service </a> </td>
+																			</tr>
+
+																					<tr>
+																						<td> <a href="../elements/id-a08aec00eea4455b8d3d94ff122535f9.html" target="element">  </a> </td>
+																						<td> <a href="../elements/id-a08aec00eea4455b8d3d94ff122535f9.html" target="element" class="i18n-elementtype-AssignmentRelationship">
+																						</a> </td>
+																						<td> <a href="../elements/id-475c962c94ed48adb323791f217ba2f2.html" target="element"> PKI </a> </td>
+																						<td> <a href="../elements/id-d6b6207f1ddc4549beb308d9b9849d0c.html" target="element"> Automated certificate and renewal service </a> </td>
+																					</tr>
+
+													
+											
+											<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelGroup -->
+																			<tr>
+																				<td> <a href="../elements/id-0ccc2541673f47fb925f5b0cf0a3d4c6.html" target="element">  </a> </td>
+																				<td> <a href="../elements/id-0ccc2541673f47fb925f5b0cf0a3d4c6.html" target="element" class="i18n-elementtype-AssignmentRelationship">
+																				</a> </td>
+																				<td> <a href="../elements/id-c2fdfbeb9ae6408aa6ee2dc2ad728bef.html" target="element"> Google Kubernetes Engine (GKE) </a> </td>
+																				<td> <a href="../elements/id-eee960ba964f4831a70895c3d967e96a.html" target="element"> Kubernetes Cluster Service </a> </td>
+																			</tr>
+																			<tr>
+																				<td> <a href="../elements/id-ac1bba95bb714456994b37a4b33587be.html" target="element">  </a> </td>
+																				<td> <a href="../elements/id-ac1bba95bb714456994b37a4b33587be.html" target="element" class="i18n-elementtype-ServingRelationship">
+																				</a> </td>
+																				<td> <a href="../elements/id-c2fdfbeb9ae6408aa6ee2dc2ad728bef.html" target="element"> Google Kubernetes Engine (GKE) </a> </td>
+																				<td> <a href="../elements/id-c3a01d6aef484cb7adef55ceda7bf17a.html" target="element"> Load Balancing Service </a> </td>
+																			</tr>
+																			<tr>
+																				<td> <a href="../elements/id-42b94a96b1204f6088b7d4bfc0aaadcb.html" target="element">  </a> </td>
+																				<td> <a href="../elements/id-42b94a96b1204f6088b7d4bfc0aaadcb.html" target="element" class="i18n-elementtype-ServingRelationship">
+																				</a> </td>
+																				<td> <a href="../elements/id-c2fdfbeb9ae6408aa6ee2dc2ad728bef.html" target="element"> Google Kubernetes Engine (GKE) </a> </td>
+																				<td> <a href="../elements/id-8d23cd4a672942a183b8242001c53004.html" target="element"> Storage Service </a> </td>
+																			</tr>
+																			<tr>
+																				<td> <a href="../elements/id-d67db39a70f64140b73f64722a07bb13.html" target="element">  </a> </td>
+																				<td> <a href="../elements/id-d67db39a70f64140b73f64722a07bb13.html" target="element" class="i18n-elementtype-ServingRelationship">
+																				</a> </td>
+																				<td> <a href="../elements/id-c2fdfbeb9ae6408aa6ee2dc2ad728bef.html" target="element"> Google Kubernetes Engine (GKE) </a> </td>
+																				<td> <a href="../elements/id-a83968c8d63444d1899995e618ed37d7.html" target="element"> Monitoring and Diagnostic Service </a> </td>
+																			</tr>
+																			<tr>
+																				<td> <a href="../elements/id-a9d188e697214f7f90a624eedc1a4487.html" target="element">  </a> </td>
+																				<td> <a href="../elements/id-a9d188e697214f7f90a624eedc1a4487.html" target="element" class="i18n-elementtype-ServingRelationship">
+																				</a> </td>
+																				<td> <a href="../elements/id-c2fdfbeb9ae6408aa6ee2dc2ad728bef.html" target="element"> Google Kubernetes Engine (GKE) </a> </td>
+																				<td> <a href="../elements/id-93da7766b06f4476b63bc7ce8eeb7570.html" target="element"> Network Service </a> </td>
+																			</tr>
+
+															<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelGroup -->
+															
+															<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelGroup -->
+															
+													
+											
+											<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelGroup -->
+													<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelGroup -->
+													
+													<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelGroup -->
+													
+											
+											<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelGroup -->
+																			<tr>
+																				<td> <a href="../elements/id-1d4fa66577984d46a1c799846a52522e.html" target="element">  </a> </td>
+																				<td> <a href="../elements/id-1d4fa66577984d46a1c799846a52522e.html" target="element" class="i18n-elementtype-AssignmentRelationship">
+																				</a> </td>
+																				<td> <a href="../elements/id-ad81bf5642d0403292a526678ec096f6.html" target="element"> API </a> </td>
+																				<td> <a href="../elements/id-db7ef21ff0f74a46ae9cbc09affeadf0.html" target="element"> SafeInputs API Service </a> </td>
+																			</tr>
+
+																			<tr>
+																				<td> <a href="../elements/id-b3b824a9f8c4489ab067e7790acdaf21.html" target="element">  </a> </td>
+																				<td> <a href="../elements/id-b3b824a9f8c4489ab067e7790acdaf21.html" target="element" class="i18n-elementtype-AssignmentRelationship">
+																				</a> </td>
+																				<td> <a href="../elements/id-c7748fdcdf1e43fe9418c0ebe75e625d.html" target="element"> certmanager </a> </td>
+																				<td> <a href="../elements/id-fd2c53114e294c6a8a302388c8a0c795.html" target="element"> SafeInputs SSL Certificate Management Service </a> </td>
+																			</tr>
+
+																			<tr>
+																				<td> <a href="../elements/id-fc28ab3f2a8f4c5181a0503d5ba03130.html" target="element">  </a> </td>
+																				<td> <a href="../elements/id-fc28ab3f2a8f4c5181a0503d5ba03130.html" target="element" class="i18n-elementtype-AssignmentRelationship">
+																				</a> </td>
+																				<td> <a href="../elements/id-43569d92b0544b24abe11b7cc295c59c.html" target="element"> flux </a> </td>
+																				<td> <a href="../elements/id-284439502d684fcb9adda7938dfed57e.html" target="element"> SafeInputs Deployment Coordinator Service </a> </td>
+																			</tr>
+
+																			<tr>
+																				<td> <a href="../elements/id-7e28826dd7d7443281af7df2db447cf2.html" target="element">  </a> </td>
+																				<td> <a href="../elements/id-7e28826dd7d7443281af7df2db447cf2.html" target="element" class="i18n-elementtype-AssignmentRelationship">
+																				</a> </td>
+																				<td> <a href="../elements/id-dfa676e9fc9f4ffe9043b0459996bce4.html" target="element"> Istio </a> </td>
+																				<td> <a href="../elements/id-2c3885a7a78843e09e3ef2b41fe77d65.html" target="element"> SafeInputs Service Mesh Service </a> </td>
+																			</tr>
+
+																			<tr>
+																				<td> <a href="../elements/id-9c3945a1706548358ff6fb78d9233183.html" target="element">  </a> </td>
+																				<td> <a href="../elements/id-9c3945a1706548358ff6fb78d9233183.html" target="element" class="i18n-elementtype-AssignmentRelationship">
+																				</a> </td>
+																				<td> <a href="../elements/id-5b28e0e5958d426fa93598f01280dcc8.html" target="element"> UI </a> </td>
+																				<td> <a href="../elements/id-70a08ac9345b4f08a67d72bdb702be49.html" target="element"> SafeInputs User(Web) Interface </a> </td>
+																			</tr>
+
+											
+
+								</tbody>
+							</table>
+						</div>
+			  </div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">imageMapResize();</script>
+</body>
+</html>

@@ -1,7 +1,0 @@
-<archimate:BusinessEvent
-    xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Loss of Reputation"
-    id="id-12a4c21904dd448d803380a01b222f8d">
-  <profiles
-      href="folder.xml#id-6551f8af2dce4e239c7693d9f1ecaa1c"/>
-</archimate:BusinessEvent>
