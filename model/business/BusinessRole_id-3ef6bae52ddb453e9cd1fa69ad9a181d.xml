@@ -1,0 +1,5 @@
+<archimate:BusinessRole
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Resilience Engineer"
+    id="id-3ef6bae52ddb453e9cd1fa69ad9a181d"
+    documentation="Develops resilient data systems and ensures data system uptime."/>

@@ -1,0 +1,5 @@
+<archimate:BusinessRole
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Data Engineer"
+    id="id-acf693256af44c1b9a632a42ab9724b1"
+    documentation="Responsible for building and maintaining data pipelines, and designing and implementing big data solutions."/>

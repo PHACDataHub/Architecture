@@ -1,0 +1,5 @@
+<archimate:BusinessRole
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Release Manager"
+    id="id-bf804c49cdc443d7aff2ba070e3a2a72"
+    documentation="Responsible for planning, scheduling, and controlling the movement of releases to the different environments, ensuring that the appropriate quality criteria are met."/>

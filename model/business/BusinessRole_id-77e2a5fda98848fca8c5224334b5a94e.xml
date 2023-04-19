@@ -1,0 +1,5 @@
+<archimate:BusinessRole
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Configuration Manager"
+    id="id-77e2a5fda98848fca8c5224334b5a94e"
+    documentation="Responsible for ensuring that the data systems are configured in a standardized and controlled manner, while managing and controlling changes to the configurations."/>

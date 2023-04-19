@@ -1,0 +1,5 @@
+<archimate:BusinessRole
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Data Integration Engineer"
+    id="id-67f2801c36d1480da7722e0ec6084cf0"
+    documentation="Responsible for designing, developing and maintaining distributed architectures and data analytics system components for use/reuse by data scientists and technologists in developing data systems."/>
