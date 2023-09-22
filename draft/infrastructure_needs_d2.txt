@@ -7,14 +7,6 @@ classes: {
 }
 
 classes: {
-  shinybox2: {
-    style: {
-      shadow: true
-    }
-  }
-}
-
-classes: {
   shinyboxCommunity: {
     style: {
       fill: "#FECACA"
@@ -83,14 +75,12 @@ Community TOOLSETS: {
 Operational OFFERINGS: {
   class: shinybox
   style.fill: "#f3f4f6"
-  grid-columns: 1
-  grid-rows: 2
 
   Key services that our platform provides for data management and analysis: {
     grid-columns: 3
     Data HOLDINGS: {
       style.fill: "#FFFBEB"
-      class: shinybox2
+      class: shinybox
       grid-rows: 5
       Socio-Economic.class: shinyboxData
       Fundamental.class: shinyboxData
@@ -98,10 +88,9 @@ Operational OFFERINGS: {
       Earth Observation.class: shinyboxData
       In-situ.class: shinyboxData
     }
-    Information SERVICES.class: shinybox2
     Information SERVICES: {
       style.fill: "#ECFDF5"
-      class: shinybox2
+      class: shinybox
       grid-rows: 5
       Transformation.class: shinyboxInformation
       Dissemination.class: shinyboxInformation
@@ -109,10 +98,9 @@ Operational OFFERINGS: {
       Processing.class: shinyboxInformation
       Discovery.class: shinyboxInformation
     }
-    Application SOLUTIONS.class: shinybox2
     Application SOLUTIONS: {
       style.fill: "#EFF6FF"
-      class: shinybox2
+      class: shinybox
       grid-rows: 7
       Analysis.class: shinyboxApplication
       Privacy.class: shinyboxApplication
