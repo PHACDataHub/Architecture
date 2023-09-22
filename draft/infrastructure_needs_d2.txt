@@ -1,0 +1,136 @@
+classes: {
+  shinybox: {
+    # width: 2000
+    style: {
+      shadow: true
+    }
+  }
+}
+
+classes: {
+  shinybox2: {
+    # height: 1200
+    width: 350
+    style: {
+      shadow: true
+    }
+  }
+}
+
+classes: {
+  shinyboxCommunity: {
+    style: {
+      fill: "#FECACA"
+      shadow: true
+    }
+  }
+}
+classes: {
+  shinyboxData: {
+    style: {
+      fill: "#FDE68A"
+      shadow: true
+    }
+  }
+}
+
+classes: {
+  shinyboxInformation: {
+    style: {
+      fill: "#A7F3D0"
+      shadow: true
+    }
+  }
+}
+
+classes: {
+  shinyboxApplication: {
+    style: {
+      fill: "#BFDBFE"
+      shadow: true
+    }
+  }
+}
+
+classes: {
+  shinyboxInfrastructure: {
+    style: {
+      fill: "#DDD6FE"
+      shadow: true
+    }
+  }
+}
+
+grid-rows: 4
+
+report: |md
+  DMIA Platform High-Level Functional Requirements
+  - Following International Best Practices for Modern Platforms
+  - Delivering the needed infrastruscture capacities, operational offerings and community toolsets
+  - Aiming to define annual technical stack requiremenets/roadmap to support the mandate of the agency
+|
+
+Community TOOLSETS: {
+  class: shinybox
+  style.fill: "#FEF2F2"
+  grid-columns: 7
+  Communication.class: shinyboxCommunity
+  Collaboration.class: shinyboxCommunity
+  Contribution.class: shinyboxCommunity
+  Publishing.class: shinyboxCommunity
+  Reviewing.class: shinyboxCommunity
+  Rating.class: shinyboxCommunity
+  Search.class: shinyboxCommunity
+}
+
+Operational OFFERINGS: {
+  class: shinybox
+  style.fill: "#f3f4f6"
+  grid-columns: 3
+
+  Data HOLDINGS: {
+    style.fill: "#FFFBEB"
+    class: shinybox2
+    grid-rows: 5
+    Socio-Economic.class: shinyboxData
+    Fundamental.class: shinyboxData
+    PH Indicators.class: shinyboxData
+    Earth Observation.class: shinyboxData
+    In-situ.class: shinyboxData
+  }
+  Information SERVICES.class: shinybox2
+  Information SERVICES: {
+    style.fill: "#ECFDF5"
+    class: shinybox2
+    grid-rows: 5
+    Transformation.class: shinyboxInformation
+    Dissemination.class: shinyboxInformation
+    Integration.class: shinyboxInformation
+    Processing.class: shinyboxInformation
+    Discovery.class: shinyboxInformation
+  }
+  Application SOLUTIONS.class: shinybox2
+  Application SOLUTIONS: {
+    style.fill: "#EFF6FF"
+    class: shinybox2
+    grid-rows: 7
+    Analysis.class: shinyboxApplication
+    Privacy.class: shinyboxApplication
+    Visualisation.class: shinyboxApplication
+    Mapping.class: shinyboxApplication
+    Automation.class: shinyboxApplication
+    Simulation.class: shinyboxApplication
+    AI.class: shinyboxApplication
+  }
+}
+Infrastructure CAPACITIES: {
+  style.fill: "#F5F3FF"
+  grid-columns: 7
+  Onboarding.class: shinyboxInfrastructure
+  Compute.class: shinyboxInfrastructure
+  Virtualisation.class: shinyboxInfrastructure
+  Network.class: shinyboxInfrastructure
+  Access.class: shinyboxInfrastructure
+  Zero-Trust.class: shinyboxInfrastructure
+  Self-Serve.class: shinyboxInfrastructure
+}
