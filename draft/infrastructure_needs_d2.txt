@@ -68,16 +68,16 @@ report: |md
 Community TOOLSETS: {
   class: shinybox
   style.fill: "#FEF2F2"
-  grid-columns: 8
-
-  Tools for effective teamwork and communication
-  Communication.class: shinyboxCommunity
-  Collaboration.class: shinyboxCommunity
-  Contribution.class: shinyboxCommunity
-  Publishing.class: shinyboxCommunity
-  Reviewing.class: shinyboxCommunity
-  Rating.class: shinyboxCommunity
-  Search.class: shinyboxCommunity
+  Tools for effective teamwork and communication: {
+    grid-columns: 8
+    Communication.class: shinyboxCommunity
+    Collaboration.class: shinyboxCommunity
+    Contribution.class: shinyboxCommunity
+    Publishing.class: shinyboxCommunity
+    Reviewing.class: shinyboxCommunity
+    Rating.class: shinyboxCommunity
+    Search.class: shinyboxCommunity
+  }
 }
 
 Operational OFFERINGS: {
@@ -86,8 +86,7 @@ Operational OFFERINGS: {
   grid-columns: 1
   grid-rows: 2
 
-  Key services that our platform provides for data management and analysis
-  Services: {
+  Key services that our platform provides for data management and analysis: {
     grid-columns: 3
     Data HOLDINGS: {
       style.fill: "#FFFBEB"
@@ -128,13 +127,15 @@ Operational OFFERINGS: {
 
 Infrastructure CAPACITIES: {
   style.fill: "#F5F3FF"
-  grid-columns: 8
-  md: Technical capabilities ensuring a robust and secure platform.
-  Onboarding.class: shinyboxInfrastructure
-  Compute.class: shinyboxInfrastructure
-  Virtualisation.class: shinyboxInfrastructure
-  Network.class: shinyboxInfrastructure
-  Access.class: shinyboxInfrastructure
-  Zero-Trust.class: shinyboxInfrastructure
-  Self-Serve.class: shinyboxInfrastructure
+
+  Technical capabilities ensuring a robust and secure platform: {
+    grid-columns: 8
+    Onboarding.class: shinyboxInfrastructure
+    Compute.class: shinyboxInfrastructure
+    Virtualisation.class: shinyboxInfrastructure
+    Network.class: shinyboxInfrastructure
+    Access.class: shinyboxInfrastructure
+    Zero-Trust.class: shinyboxInfrastructure
+    Self-Serve.class: shinyboxInfrastructure
+  }
 }
